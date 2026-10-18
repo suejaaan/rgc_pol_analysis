@@ -1,0 +1,4 @@
+# large per-event fit arrays and run logs (regenerate with fit_events.py)
+*.npz
+*.log
+fit_log.txt
