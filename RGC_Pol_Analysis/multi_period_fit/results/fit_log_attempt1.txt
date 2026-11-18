@@ -1,0 +1,15 @@
+fitting 30 events on 14 workers ...
+  2022-08-11 13:04:50 cc -14.500  P_online -0.506  P_area +1.004  (+298.4 %)  P_lineshape -0.432  rms 42 µV  [30 s]
+  2022-07-28 19:14:02 cc -14.500  P_online -0.544  P_area +0.751  (+238.1 %)  P_lineshape -0.090  rms 34 µV  [63 s]
+  2023-03-01 21:06:13 cc  -3.650  P_online +0.422  P_area +0.410  (-2.7 %)  P_lineshape +0.472  rms 25 µV  [229 s]
+  2022-08-06 17:14:58 cc -14.500  P_online +0.670  P_area +1.041  (+55.4 %)  P_lineshape +0.179  rms 43 µV  [319 s]
+  2023-02-07 04:06:44 cc  -3.370  P_online -0.313  P_area -0.318  (-1.5 %)  P_lineshape -0.404  rms 54 µV  [112 s]
+  2023-02-02 07:02:14 cc  -3.370  P_online +0.539  P_area +0.349  (-35.3 %)  P_lineshape +0.520  rms 176 µV  [390 s]
+  2023-02-02 14:10:18 cc  -3.370  P_online +0.512  P_area +0.337  (-34.2 %)  P_lineshape +0.488  rms 162 µV  [357 s]
+  2023-02-07 02:14:12 cc  -3.370  P_online -0.224  P_area -0.229  (-2.3 %)  P_lineshape -0.356  rms 42 µV  [110 s]
+  2023-02-25 15:22:52 cc  -3.650  P_online -0.512  P_area -0.293  (+42.7 %)  P_lineshape -0.950  rms 143 µV  [436 s]
+  2022-10-20 17:18:36 cc  -1.420  P_online +0.414  P_area +0.365  (-11.9 %)  P_lineshape +0.474  rms 161 µV  [54 s]
+  2023-02-25 13:33:31 cc  -3.650  P_online -0.506  P_area -0.290  (+42.7 %)  P_lineshape -0.950  rms 141 µV  [5400 s]
+  2023-03-02 06:08:45 cc  -3.930  P_online +0.478  P_area +0.267  (-44.0 %)  P_lineshape +0.412  rms 141 µV  [6095 s]
+/Users/suejaan/miniforge3/lib/python3.12/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 6 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

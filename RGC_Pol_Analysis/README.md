@@ -11,6 +11,9 @@ circuit, signal generator). Raw data (`data_creation/data-d`) is not part of the
 | Folder | What it does |
 |---|---|
 | `online_signal_inspection/` | Plots the online processing chain for selected events: raw Q-meter sweep, stored baseline, baseline-subtracted signal with the online wing polynomial, and the final `fitsub` that is summed into `area` (`pol = cc × area`). |
+| `baseline_refit/` | Refits all 107 unique `data-d` baseline sweeps with the bounded physical Q-meter (parallel). Replaces the unphysical upstream fits. |
+| `multi_period_fit/` | Raw-sweep Q-meter + Dulya fits of 30 events across 8 periods (both signs), comparison with online P, regenerated signals and closure test. Summary: `multi_period_fit/MEETING_SUMMARY.md`. |
+| `te_calibration/` | Survey of TE runs and cc cross-checks (TE relaxation fits, lineshape-asymmetry cc). |
 | `qmeter_dulya_fit/` | Fits the **raw sweep** directly with a Liverpool Q-meter circuit whose coil contains the Dulya deuteron susceptibility (χ″ lineshape, χ′ from Kramers–Kronig). No stored baseline, no polynomial. Extracts P with the **area method**: cc × Σ of the χ″-driven part of the fitted signal. |
 
 ## Running
@@ -47,9 +50,14 @@ python plot_results.py              # writes plots/ and plots/results_table.md
 - `data-d`: 133 of 343 run files are empty; `current_*` files are partial copies of
   run files; 0.3 % of events have `pol ≠ cc × area`; cc values are hand-entered online
   values that vary from −0.82 to −20 across periods.
+- TE runs in `data-d` never clearly reach equilibrium, so they cannot recalibrate cc. Where
+  tested, the online cc agrees with a calibration-free lineshape check to ~5–10 %
+  (`te_calibration/README.md`).
 
 ## Next steps
 
-1. Refit the data-d baselines with the bounded physical circuit (`qmeter_dulya_fit/model.py`).
-2. TE-based cc recalibration per period from the 1,587 TE events.
-3. Regenerate MC from physical parameters and retrain the ML models.
+1. ~~Refit the data-d baselines with the bounded physical circuit~~ (done: `baseline_refit/`;
+   June 2022 high-power baselines still fit poorly).
+2. Per-period cc cross-check from the lineshape asymmetry of high-P events (TE runs are unusable).
+3. Sample lineshape parameters and per-event background drift from raw-sweep fits.
+4. Regenerate MC from physical parameters (signal inside the Q-meter via χ) and retrain the ML models.

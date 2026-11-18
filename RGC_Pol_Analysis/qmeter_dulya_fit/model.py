@@ -28,7 +28,7 @@ ETA_FILL = 0.0104
 # U [V], Cknob [x20 pF], trim [rad of cable phase at F_RES], phi_deg [deg],
 # DC_offset [V], L0 [x10 nH], Rcoil [ohm], alpha [cable loss], Cstray [pF]
 CIRCUIT_NAMES = ("U", "Cknob", "trim", "phi_deg", "DC_offset", "L0", "Rcoil", "alpha", "Cstray")
-CIRCUIT_LO = (0.001, 0.5, 0.0, -360.0, -50.0, 0.5, 0.01, 0.001, 0.0)
+CIRCUIT_LO = (0.001, 0.05, 0.0, -360.0, -50.0, 0.5, 0.01, 0.001, 0.0)
 CIRCUIT_HI = (100.0, 500.0, 20.0, 360.0, 50.0, 30.0, 10.0, 1.0, 50.0)
 
 SIGNAL_NAMES = ("A", "P", "f0", "wq", "eta_q", "g")

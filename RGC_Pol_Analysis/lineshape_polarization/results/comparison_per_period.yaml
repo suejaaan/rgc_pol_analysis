@@ -1,0 +1,262 @@
+- cc: -3.701902
+  dates: "2022-07-19 \u2013 07-20"
+  n: 3
+  n_pol_events: null
+  P_on: 0.048967048652745856
+  P_ar: 0.12080268151185045
+  P_ls: 0.16403175567940412
+  r_ar: 2.463915880564294
+  r_ls: -3.3519982464037654
+  cc_ls: 12.408769012358592
+  status: no result
+  note: "lineshape +0.12 (+235%) \xB7 area +0.07 (+146%)  \u2014 no strong signal"
+  channel: 5T
+- cc: -15.0
+  dates: "2022-07-20 \u2013 07-20"
+  n: 4
+  n_pol_events: null
+  P_on: 0.1259987594733447
+  P_ar: 0.5202802749118085
+  P_ls: 0.032905742769260275
+  r_ar: 4.242036214077203
+  r_ls: 0.24743045195641755
+  cc_ls: -3.7114567793462636
+  status: unresolved
+  note: "lineshape -0.09 (-75%) \xB7 area +0.40 (+324%)  \u2014 400 mV: RF saturation?"
+  channel: 5T-400mV
+- cc: -20.0
+  dates: "2022-07-21 \u2013 07-21"
+  n: 6
+  n_pol_events: null
+  P_on: 0.4177110994695443
+  P_ar: 0.8759840196791746
+  P_ls: 0.060541825228794546
+  r_ar: 2.100009739439444
+  r_ls: 0.14367943809476785
+  cc_ls: -2.8735887618953573
+  status: unresolved
+  note: "lineshape -0.35 (-86%) \xB7 area +0.46 (+110%)  \u2014 400 mV: RF saturation?"
+  channel: 5T-400mV
+- cc: -14.5
+  dates: "2022-07-22 \u2013 09-06"
+  n: 6
+  n_pol_events: null
+  P_on: 0.6692084418026051
+  P_ar: 0.6826170575443452
+  P_ls: 0.16957022033229063
+  r_ar: 0.6992945761228482
+  r_ls: 0.25488535791510647
+  cc_ls: -3.6958376897690437
+  status: online wrong
+  note: "lineshape -0.50 (-75%) \xB7 area -0.17 (-27%)  \u2014 online P too high"
+  channel: 5T, 5T-400mV
+- cc: -2.36
+  dates: "2022-09-06 \u2013 09-06"
+  n: 6
+  n_pol_events: null
+  P_on: 0.6156292044331961
+  P_ar: 0.6204277519982582
+  P_ls: 0.3612331341422589
+  r_ar: 1.0071580185063815
+  r_ls: 0.586399963388179
+  cc_ls: -1.3839039135961024
+  status: online wrong
+  note: "lineshape -0.25 (-41%) \xB7 area +0.00 (+1%)  \u2014 short entry"
+  channel: 5T
+- cc: -1.34
+  dates: "2022-09-07 \u2013 09-08"
+  n: 6
+  n_pol_events: null
+  P_on: 0.35231001560304664
+  P_ar: 0.35174255892987755
+  P_ls: 0.3604239242046028
+  r_ar: 0.9978941389526148
+  r_ls: 1.0320784302056851
+  cc_ls: -1.3829850964756183
+  status: consistent
+  note: "lineshape +0.01 (+3%) \xB7 area +0.00 (+0%)"
+  channel: 5T
+- cc: -1.41
+  dates: "2022-09-08 \u2013 09-13"
+  n: 6
+  n_pol_events: null
+  P_on: 0.3404410511422333
+  P_ar: 0.344915306933156
+  P_ls: 0.3675364691586387
+  r_ar: 1.0124946667876644
+  r_ls: 1.0771268667844556
+  cc_ls: -1.5187488821660824
+  status: consistent
+  note: "lineshape +0.03 (+8%) \xB7 area +0.00 (+1%)"
+  channel: 5T
+- cc: -1.57
+  dates: "2022-09-21 \u2013 09-21"
+  n: 2
+  n_pol_events: null
+  P_on: 0.4722235594730958
+  P_ar: 0.4745877750245726
+  P_ls: 0.43795174478275245
+  r_ar: 1.0049993524343979
+  r_ls: 0.9274442160154492
+  cc_ls: -1.4560874191442554
+  status: consistent
+  note: "lineshape -0.03 (-7%) \xB7 area +0.00 (+0%)"
+  channel: 5T
+- cc: -1.39
+  dates: "2022-09-21 \u2013 10-20"
+  n: 6
+  n_pol_events: null
+  P_on: 0.38077831839201204
+  P_ar: 0.38717763546674583
+  P_ls: 0.40899660455901254
+  r_ar: 1.006324648431827
+  r_ls: 1.0852803625612157
+  cc_ls: -1.50853970396009
+  status: consistent
+  note: "lineshape +0.04 (+9%) \xB7 area +0.00 (+1%)"
+  channel: 5T
+- cc: -1.42
+  dates: "2022-10-20 \u2013 10-25"
+  n: 6
+  n_pol_events: null
+  P_on: 0.3496907457708164
+  P_ar: 0.3606364633872883
+  P_ls: 0.38687253254730736
+  r_ar: 1.0151779807726982
+  r_ls: 1.1052047870393762
+  cc_ls: -1.569390797595914
+  status: consistent
+  note: "lineshape +0.03 (+11%) \xB7 area +0.00 (+2%)"
+  channel: 5T
+- cc: -3.86
+  dates: "2023-02-01 \u2013 02-01"
+  n: 6
+  n_pol_events: null
+  P_on: 0.5320180196079001
+  P_ar: 0.5223978674003235
+  P_ls: 0.5125872399487033
+  r_ar: 0.9819091440698767
+  r_ls: 0.963323580630143
+  cc_ls: -3.7184290212323514
+  status: consistent
+  note: "lineshape -0.02 (-4%) \xB7 area -0.01 (-2%)"
+  channel: 5T
+- cc: -3.53
+  dates: "2023-02-02 \u2013 02-02"
+  n: 6
+  n_pol_events: null
+  P_on: 0.5521212650485442
+  P_ar: 0.5361925021658545
+  P_ls: 0.5470863312163565
+  r_ar: 0.9707490822462406
+  r_ls: 0.994375967510341
+  cc_ls: -3.510147165311503
+  status: consistent
+  note: "lineshape +0.00 (-1%) \xB7 area -0.02 (-3%)"
+  channel: 5T
+- cc: -3.37
+  dates: "2023-02-02 \u2013 02-07"
+  n: 6
+  n_pol_events: null
+  P_on: 0.4920795121176388
+  P_ar: 0.4824565188524156
+  P_ls: 0.5088316053207337
+  r_ar: 1.0019539883071344
+  r_ls: 1.04497700100917
+  cc_ls: -3.5215724934009023
+  status: consistent
+  note: "lineshape +0.02 (+4%) \xB7 area +0.00 (+0%)"
+  channel: 5T
+- cc: -3.65
+  dates: "2023-02-24 \u2013 03-01"
+  n: 5
+  n_pol_events: null
+  P_on: 0.4908058038778068
+  P_ar: 0.515510281716876
+  P_ls: 0.5020159141117165
+  r_ar: 1.0185457616032934
+  r_ls: 1.0606877124485619
+  cc_ls: -3.8715101504372504
+  status: consistent
+  note: "lineshape +0.03 (+6%) \xB7 area +0.01 (+2%)"
+  channel: 5T
+- cc: -3.93
+  dates: "2023-03-02 \u2013 03-15"
+  n: 4
+  n_pol_events: null
+  P_on: 0.48914689624804586
+  P_ar: 0.48795829997031076
+  P_ls: 0.4919798028304638
+  r_ar: 0.9745432665630128
+  r_ls: 1.0087308916629039
+  cc_ls: -3.964312404235212
+  status: consistent
+  note: "lineshape +0.00 (+1%) \xB7 area -0.01 (-3%)"
+  channel: 5T
+- cc: -3.67
+  dates: "2023-03-16 \u2013 03-19"
+  n: 4
+  n_pol_events: null
+  P_on: 0.37485456982095056
+  P_ar: 0.39115552936787806
+  P_ls: 0.4076403416616714
+  r_ar: 1.022196789038273
+  r_ls: 1.0850160095836137
+  cc_ls: -3.982008755171862
+  status: consistent
+  note: "lineshape +0.03 (+9%) \xB7 area +0.01 (+2%)"
+  channel: 5T
+- cc: -1.122
+  dates: "2023-03-22 \u2013 03-23"
+  n: 4
+  n_pol_events: null
+  P_on: 0.13144708493359597
+  P_ar: 0.12511986581997442
+  P_ls: 0.32550624400299183
+  r_ar: 0.9699444961709384
+  r_ls: 2.493039759710772
+  cc_ls: -2.796695754424864
+  status: online wrong
+  note: "lineshape +0.19 (+149%) \xB7 area +0.00 (-3%)  \u2014 cc from unfinished\
+    \ TE"
+  channel: 5T
+- cc: -1.0
+  dates: "2023-03-22 \u2013 03-22"
+  n: 4
+  n_pol_events: null
+  P_on: 0.06336178170289619
+  P_ar: 0.04916711282126274
+  P_ls: 0.3320557631406958
+  r_ar: 0.7669844929040663
+  r_ls: 5.28623032862577
+  cc_ls: -5.28623032862577
+  status: unresolved
+  note: "lineshape +0.27 (+429%) \xB7 area -0.01 (-23%)  \u2014 area drifts, P_ls\
+    \ constant"
+  channel: 5T
+- cc: -4.0
+  dates: "2023-03-23 \u2013 03-23"
+  n: 6
+  n_pol_events: null
+  P_on: 0.16040820356875818
+  P_ar: 0.13914271142038137
+  P_ls: 0.24850388550995878
+  r_ar: 0.8410818042318873
+  r_ls: 1.515545919603266
+  cc_ls: -6.062183678413064
+  status: unresolved
+  note: "lineshape +0.08 (+52%) \xB7 area -0.03 (-16%)  \u2014 area drifts, low P"
+  channel: 5T
+- cc: -3.55
+  dates: "2023-03-23 \u2013 03-23"
+  n: 4
+  n_pol_events: null
+  P_on: 0.08609385238624698
+  P_ar: 0.0596823668190483
+  P_ls: 0.25054670588807876
+  r_ar: 0.6829484004392647
+  r_ls: 2.7831978802548845
+  cc_ls: -9.88035247490484
+  status: unresolved
+  note: "lineshape +0.14 (+178%) \xB7 area -0.03 (-32%)  \u2014 area drifts, low P"
+  channel: 5T

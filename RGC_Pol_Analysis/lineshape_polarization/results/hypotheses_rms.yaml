@@ -1,0 +1,54 @@
+- period_cc: -14.5
+  event: '2022-09-06 18:52:06'
+  P_online: 0.9422861590819813
+  P_lineshape: 0.28869745698692034
+  rms_uV_online: 93.56762770125779
+  rms_uV_lineshape: 46.372411613760434
+- period_cc: -2.36
+  event: '2022-09-06 22:48:35'
+  P_online: 0.61611006491746
+  P_lineshape: 0.360943279678553
+  rms_uV_online: 140.54465397236402
+  rms_uV_lineshape: 68.59899778533264
+- period_cc: -1.122
+  event: '2023-03-22 20:19:10'
+  P_online: 0.1333985257224937
+  P_lineshape: 0.331463139308018
+  rms_uV_online: 50.77780138860165
+  rms_uV_lineshape: 32.113476938807175
+- period_cc: -3.701902
+  event: '2022-07-20 04:10:12'
+  P_online: 0.049140522434466954
+  P_lineshape: -0.16754317151708403
+  rms_uV_online: 69.75297532772055
+  rms_uV_lineshape: 68.87739482319151
+- period_cc: -15.0
+  event: '2022-07-20 21:13:10'
+  P_online: 0.151134390690566
+  P_lineshape: 0.038405792896606936
+  rms_uV_online: 31.228187199773444
+  rms_uV_lineshape: 30.763763915389152
+- period_cc: -20.0
+  event: '2022-07-21 18:58:02'
+  P_online: 0.431215146296271
+  P_lineshape: 0.05956059465992549
+  rms_uV_online: 42.51105808193098
+  rms_uV_lineshape: 35.3205115974483
+- period_cc: -1.0
+  event: '2023-03-22 20:53:01'
+  P_online: 0.09402730196501308
+  P_lineshape: 0.287545579543259
+  rms_uV_online: 43.97230645443584
+  rms_uV_lineshape: 31.471155837172596
+- period_cc: -4.0
+  event: '2023-03-23 13:17:15'
+  P_online: 0.16857216501071548
+  P_lineshape: 0.24567631067633253
+  rms_uV_online: 19.93777500185608
+  rms_uV_lineshape: 19.302086641959107
+- period_cc: -3.55
+  event: '2023-03-23 13:31:07'
+  P_online: 0.15190144178840628
+  P_lineshape: 0.2608422805959202
+  rms_uV_online: 23.105740509542535
+  rms_uV_lineshape: 22.103846721092413

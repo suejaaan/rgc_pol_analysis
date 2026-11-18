@@ -1,0 +1,4668 @@
+info:
+  model: bounded Liverpool Q-meter, ../qmeter_dulya_fit/model.py (qmeter, chi = 0)
+  fitted_params:
+  - U
+  - Cknob
+  - trim
+  - phi_deg
+  - DC_offset
+  - L0
+  - Rcoil
+  - alpha
+  - Cstray
+  bounds_lo:
+  - 0.001
+  - 0.05
+  - 0.0
+  - -360.0
+  - -50.0
+  - 0.5
+  - 0.01
+  - 0.001
+  - 0.0
+  bounds_hi:
+  - 100.0
+  - 500.0
+  - 20.0
+  - 360.0
+  - 50.0
+  - 30.0
+  - 10.0
+  - 1.0
+  - 50.0
+  n_baselines: 107
+  wall_seconds: 319.9
+baselines:
+  1:
+    base_file: data-d/current_2022-06-23_18-25-06.txt
+    base_time: '2022-06-23 18:43:47.990861+00:00'
+    channel: Deuteron5T
+    n_events: 2
+    first_event: '2022-06-23 18:43:47.991102+00:00'
+    last_event: '2022-06-23 18:45:07.200766+00:00'
+    labels:
+      Junk: 1
+      Baseline: 1
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 0.0011418538864110942
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.0036511373471856956
+    ptp_V: 0.1014883661805297
+    nrmse: 0.011251081571063425
+    params:
+      U: 0.3606981730554692
+      Cknob: 3.6045277640403244
+      trim: 9.01069764237108
+      phi_deg: -83.4151756062962
+      DC_offset: -6.643095494295391
+      L0: 17.61088173483455
+      Rcoil: 0.5286672428433671
+      alpha: 0.0010000020680666904
+      Cstray: 5.730558794853302
+    param_errors:
+      U: 0.18575251219768937
+      Cknob: 4.159689175861141
+      trim: 0.35198203769720354
+      phi_deg: 1.2297719624801209
+      DC_offset: 3.226130677636551
+      L0: 0.13903234525928834
+      Rcoil: 0.05542202135060724
+      alpha: 0.08283733451508808
+      Cstray: 0.03539542820796735
+    params_at_bound:
+    - alpha
+    fit_seconds: 17.4
+    improved_in_pass2: true
+  2:
+    base_file: data-d/current_2022-06-23_18-25-06.txt
+    base_time: '2022-06-23 18:46:26.402047+00:00'
+    channel: Deuteron5T
+    n_events: 5
+    first_event: '2022-06-23 18:46:55.327954+00:00'
+    last_event: '2022-06-23 18:47:34.932177+00:00'
+    labels:
+      Junk: 5
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 0.0011330299797443282
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.0036225189802223667
+    ptp_V: 0.10166108995525258
+    nrmse: 0.0111451685226181
+    params:
+      U: 0.3597073607347708
+      Cknob: 3.6579439357238677
+      trim: 9.004188977857885
+      phi_deg: -82.78218789144877
+      DC_offset: -6.4296017192921
+      L0: 17.61450734167605
+      Rcoil: 0.530323596126216
+      alpha: 0.0010000085510008946
+      Cstray: 5.720359550302262
+    param_errors:
+      U: 0.18546867881727103
+      Cknob: 4.177184309771861
+      trim: 0.34757296113460917
+      phi_deg: 1.221209178982035
+      DC_offset: 3.3000337423475115
+      L0: 0.14193873885512723
+      Rcoil: 0.05170674461010765
+      alpha: 0.08235161995920631
+      Cstray: 0.03628021107707711
+    params_at_bound:
+    - alpha
+    fit_seconds: 17.9
+    improved_in_pass2: true
+  3:
+    base_file: data-d/current_2022-06-23_18-25-06.txt
+    base_time: '2022-06-23 18:48:14.541120+00:00'
+    channel: Deuteron5T
+    n_events: 78
+    first_event: '2022-06-23 18:48:14.546383+00:00'
+    last_event: '2022-06-23 18:58:51.266392+00:00'
+    labels:
+      Junk: 55
+      Polarize: 20
+      Baseline: 3
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 0.0010773146589337782
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.003432604495115399
+    ptp_V: 0.10386892551036997
+    nrmse: 0.010371866789227758
+    params:
+      U: 0.39224458072820945
+      Cknob: 3.7715696625937674
+      trim: 8.961419950515916
+      phi_deg: -83.15234019655085
+      DC_offset: -7.446288339354059
+      L0: 17.60780286738813
+      Rcoil: 0.5263171468449449
+      alpha: 0.0010000080815477461
+      Cstray: 6.221636821663686
+    param_errors:
+      U: 0.1987533915790717
+      Cknob: 4.211455554272594
+      trim: 0.33588633982589505
+      phi_deg: 1.405385854900383
+      DC_offset: 3.369779533641516
+      L0: 0.16533348998373862
+      Rcoil: 0.07581256797656434
+      alpha: 0.08357675949388206
+      Cstray: 0.046339185817594365
+    params_at_bound:
+    - alpha
+    fit_seconds: 18.0
+    improved_in_pass2: true
+  4:
+    base_file: data-d/current_2022-06-23_18-25-06.txt
+    base_time: '2022-06-23 18:59:50.676014+00:00'
+    channel: Deuteron5T
+    n_events: 11
+    first_event: '2022-06-23 18:59:50.682212+00:00'
+    last_event: '2022-06-23 19:10:18.008972+00:00'
+    labels:
+      Baseline: 11
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 0.000995490066897496
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.0031825573665180684
+    ptp_V: 0.11384383528977438
+    nrmse: 0.008744347591273679
+    params:
+      U: 0.42896698675690315
+      Cknob: 3.958517834331011
+      trim: 8.913931067475923
+      phi_deg: -82.94419645824628
+      DC_offset: -8.40557920964182
+      L0: 17.589434877171296
+      Rcoil: 0.48528829943579094
+      alpha: 0.0010000046701159108
+      Cstray: 5.896684339840629
+    param_errors:
+      U: 0.20688772384900042
+      Cknob: 4.1347227795822015
+      trim: 0.30893913508454185
+      phi_deg: 1.5690572901603572
+      DC_offset: 3.422368668353718
+      L0: 0.19473232402148077
+      Rcoil: 0.07125232298146932
+      alpha: 0.08142444196523353
+      Cstray: 0.0530142884955565
+    params_at_bound:
+    - alpha
+    fit_seconds: 17.3
+    improved_in_pass2: true
+  5:
+    base_file: data-d/current_2022-06-23_18-25-06.txt
+    base_time: '2022-06-23 19:11:17.415473+00:00'
+    channel: Deuteron5T-300mV
+    n_events: 1
+    first_event: '2022-06-23 19:11:38.323275+00:00'
+    last_event: '2022-06-23 19:11:38.323275+00:00'
+    labels:
+      Baseline: 1
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 0.0017443363116347137
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.005066613215422677
+    ptp_V: 0.338470286145399
+    nrmse: 0.00515358772405028
+    params:
+      U: 1.086785420125256
+      Cknob: 7.409921418910246
+      trim: 8.589077431004355
+      phi_deg: -70.20272029868072
+      DC_offset: -12.862040695934848
+      L0: 17.12926473840049
+      Rcoil: 0.47760012190148565
+      alpha: 0.0010000070378001688
+      Cstray: 5.647549667103088
+    param_errors:
+      U: 0.0015015254773402425
+      Cknob: 0.07903332121313073
+      trim: 0.007833455786907082
+      phi_deg: 0.04381921862408785
+      DC_offset: 0.027500834114078967
+      L0: 0.0023667695833446173
+      Rcoil: 0.003213288452947632
+      alpha: 0.0001564841875306099
+      Cstray: 0.0007837402031120236
+    params_at_bound:
+    - alpha
+    fit_seconds: 18.2
+    improved_in_pass2: true
+  6:
+    base_file: data-d/current_2022-06-23_18-25-06.txt
+    base_time: '2022-06-23 19:12:37.724866+00:00'
+    channel: Deuteron5T-300mV
+    n_events: 1326
+    first_event: '2022-06-23 19:12:37.725174+00:00'
+    last_event: '2022-06-25 02:36:36.498382+00:00'
+    labels:
+      Baseline: 60
+      Polarize: 1266
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 0.0017682353750045417
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.005113966128512004
+    ptp_V: 0.33842823598813165
+    nrmse: 0.005224845881555084
+    params:
+      U: 1.0040616920570147
+      Cknob: 7.970416684905283
+      trim: 8.595255667719671
+      phi_deg: -65.8748938169597
+      DC_offset: -8.069364454672032
+      L0: 17.587107314712306
+      Rcoil: 0.5501747932280554
+      alpha: 0.0010000155976933745
+      Cstray: 5.601400416842979
+    param_errors:
+      U: 0.0010756057576872182
+      Cknob: 0.08616888227349229
+      trim: 0.0076847598895985894
+      phi_deg: 0.0436988338424614
+      DC_offset: 0.03160520422146025
+      L0: 0.002286521841166392
+      Rcoil: 0.0035729111740780846
+      alpha: 0.00021581448035349178
+      Cstray: 0.0007523229176845171
+    params_at_bound:
+    - alpha
+    fit_seconds: 34.0
+    improved_in_pass2: false
+  7:
+    base_file: data-d/current_2022-06-24_21-56-29.txt
+    base_time: '2022-06-25 02:36:36.498079+00:00'
+    channel: Deuteron5T-300mV
+    n_events: 3789
+    first_event: '2022-06-25 02:37:16.376255+00:00'
+    last_event: '2022-06-28 13:59:22.005002+00:00'
+    labels:
+      Junk: 3789
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 2.066229510818224e-06
+    edge_bins_excluded: 3
+    max_abs_resid_V: 6.4909971466686756e-06
+    ptp_V: 1.2569913857313209e-05
+    nrmse: 0.16437897142915472
+    params:
+      U: 0.9175443345791771
+      Cknob: 1.7906274079328632
+      trim: 7.604592521843267
+      phi_deg: -109.34835464739801
+      DC_offset: -35.438351656568756
+      L0: 5.586340368832251
+      Rcoil: 0.5447502275416495
+      alpha: 0.35080382512570213
+      Cstray: 10.325790591998349
+    param_errors:
+      U: 9.269771107174453e-07
+      Cknob: 0.0008986144564694344
+      trim: 0.0039111943809923555
+      phi_deg: 3.579336180535558e-05
+      DC_offset: 2.9274180726956428e-06
+      L0: 0.0001454504918118729
+      Rcoil: 1.9998308280215114e-05
+      alpha: 0.00015489288401885777
+      Cstray: 1.5733496738132286e-06
+    params_at_bound: []
+    fit_seconds: 16.4
+    improved_in_pass2: true
+  8:
+    base_file: data-d/current_2022-06-28_14-11-55.txt
+    base_time: '2022-06-28 14:18:48.081614+00:00'
+    channel: Deuteron5T
+    n_events: 15
+    first_event: '2022-06-28 14:19:00.816395+00:00'
+    last_event: '2022-06-28 14:21:58.369265+00:00'
+    labels:
+      Junk: 15
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 0.0011535549601253323
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.0036906345266887186
+    ptp_V: 0.11297658814215916
+    nrmse: 0.010210566446508428
+    params:
+      U: 0.37987993072337084
+      Cknob: 3.5261890906594533
+      trim: 9.025927676252206
+      phi_deg: -84.42948070516071
+      DC_offset: -7.477314374079473
+      L0: 17.639974712308966
+      Rcoil: 0.5248278219456859
+      alpha: 0.0010000022761132502
+      Cstray: 5.650047889514907
+    param_errors:
+      U: 0.17784182518423927
+      Cknob: 3.8077150811442464
+      trim: 0.33333148596706663
+      phi_deg: 1.2736701283445253
+      DC_offset: 2.9625879324449205
+      L0: 0.12886484817111218
+      Rcoil: 0.05832321196663333
+      alpha: 0.07652276271645299
+      Cstray: 0.03347499665386581
+    params_at_bound:
+    - alpha
+    fit_seconds: 18.0
+    improved_in_pass2: true
+  9:
+    base_file: data-d/current_2022-06-28_14-51-12.txt
+    base_time: '2022-06-28 14:53:16.186668+00:00'
+    channel: Deuteron5T
+    n_events: 1
+    first_event: '2022-06-28 14:53:42.606437+00:00'
+    last_event: '2022-06-28 14:53:42.606437+00:00'
+    labels:
+      None: 1
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 0.0010895817263719357
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.003456531415029218
+    ptp_V: 0.09166182370965847
+    nrmse: 0.011886974121562517
+    params:
+      U: 0.3368146837695181
+      Cknob: 3.2952918967168654
+      trim: 9.064988070398572
+      phi_deg: -86.74685780172886
+      DC_offset: -6.8919699452281575
+      L0: 17.628414711034814
+      Rcoil: 0.4942156670524171
+      alpha: 0.0010000013782258566
+      Cstray: 5.669639335706665
+    param_errors:
+      U: 0.1570743855040971
+      Cknob: 3.727568356735524
+      trim: 0.3510528798688524
+      phi_deg: 0.9914910331733222
+      DC_offset: 2.5308165167527394
+      L0: 0.10052299304270208
+      Rcoil: 0.04822028227058783
+      alpha: 0.07767477480554633
+      Cstray: 0.026028212499625638
+    params_at_bound:
+    - alpha
+    fit_seconds: 19.2
+    improved_in_pass2: true
+  10:
+    base_file: data-d/current_2022-06-29_19-57-01.txt
+    base_time: '2022-06-29 20:33:16.924782+00:00'
+    channel: Deuteron5T
+    n_events: 2
+    first_event: '2022-06-29 20:33:45.522741+00:00'
+    last_event: '2022-06-29 20:34:09.638983+00:00'
+    labels:
+      None: 2
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 0.000550022540169951
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.00181759973998874
+    ptp_V: 0.11854671354387225
+    nrmse: 0.004639711416094184
+    params:
+      U: 0.2897693924202186
+      Cknob: 4.842710430227509
+      trim: 9.241716533178918
+      phi_deg: -72.69650335936448
+      DC_offset: -1.5757531896898485
+      L0: 6.984426739202126
+      Rcoil: 0.07746337068704044
+      alpha: 0.0010000021076960147
+      Cstray: 17.374463606799395
+    param_errors:
+      U: 0.08905025776372755
+      Cknob: 2.8721702707205274
+      trim: 0.17427227427850556
+      phi_deg: 0.2669384785871191
+      DC_offset: 2.486624101837605
+      L0: 0.0008252365616137797
+      Rcoil: 0.022645371534213546
+      alpha: 0.04370201148017315
+      Cstray: 0.00884174542075636
+    params_at_bound:
+    - alpha
+    fit_seconds: 18.3
+    improved_in_pass2: true
+  11:
+    base_file: data-d/current_2022-06-30_17-08-33.txt
+    base_time: '2022-06-30 17:32:42.010077+00:00'
+    channel: Deuteron5T
+    n_events: 127
+    first_event: '2022-06-30 17:32:42.014496+00:00'
+    last_event: '2022-06-30 19:22:45.711696+00:00'
+    labels:
+      Baseline: 7
+      TE: 2
+      Polarize: 105
+      Junk: 13
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 4.041445196152537e-06
+    edge_bins_excluded: 3
+    max_abs_resid_V: 1.3271064231101803e-05
+    ptp_V: 0.013548398543100415
+    nrmse: 0.000298296893414806
+    params:
+      U: 1.0416131816164487
+      Cknob: 37.49089785153138
+      trim: 7.789368510065165
+      phi_deg: -169.1415085779456
+      DC_offset: -49.99999999980234
+      L0: 1.6361240704970539
+      Rcoil: 0.5172652755603544
+      alpha: 0.2390030319712895
+      Cstray: 5.92111635021704
+    param_errors:
+      U: 0.0014850019799444547
+      Cknob: 0.029353969547391313
+      trim: 0.0009069459378195114
+      phi_deg: 0.06771462935484181
+      DC_offset: 0.06697507525645756
+      L0: 0.02993913120915652
+      Rcoil: 0.04033072635339009
+      alpha: 0.00022316205946303012
+      Cstray: 0.00023388911835283823
+    params_at_bound:
+    - DC_offset
+    fit_seconds: 33.6
+    improved_in_pass2: false
+  12:
+    base_file: data-d/current_2022-06-30_19-32-10.txt
+    base_time: '2022-06-30 19:49:14.582135+00:00'
+    channel: Deuteron5T
+    n_events: 127
+    first_event: '2022-06-30 19:49:14.582418+00:00'
+    last_event: '2022-06-30 19:50:51.034091+00:00'
+    labels:
+      Baseline: 127
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 0.0007869113675956739
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.002452790354941392
+    ptp_V: 0.09798213173629122
+    nrmse: 0.0080311721499749
+    params:
+      U: 0.416980691586697
+      Cknob: 4.186459564368371
+      trim: 8.836611320388709
+      phi_deg: -83.85473462100221
+      DC_offset: -7.780899849260426
+      L0: 17.560796406698827
+      Rcoil: 0.22172441064340817
+      alpha: 0.00100001007797456
+      Cstray: 5.796226731761951
+    param_errors:
+      U: 0.19101115414587969
+      Cknob: 4.236988627880925
+      trim: 0.2916341156626305
+      phi_deg: 1.4943217820698325
+      DC_offset: 3.4367774082516775
+      L0: 0.22612448284136066
+      Rcoil: 0.08625305458046935
+      alpha: 0.08492343481361181
+      Cstray: 0.06349080444283087
+    params_at_bound:
+    - alpha
+    fit_seconds: 17.9
+    improved_in_pass2: true
+  13:
+    base_file: data-d/current_2022-06-30_19-32-10.txt
+    base_time: '2022-06-30 19:52:27.475229+00:00'
+    channel: Deuteron5T
+    n_events: 6
+    first_event: '2022-06-30 19:52:27.475495+00:00'
+    last_event: '2022-06-30 19:52:27.475495+00:00'
+    labels:
+      Baseline: 6
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 0.0007834962706339652
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.0024335706949862868
+    ptp_V: 0.09847241175785992
+    nrmse: 0.007956505346498001
+    params:
+      U: 0.3332288086188125
+      Cknob: 4.7611432142342265
+      trim: 9.190755501536621
+      phi_deg: -76.07768799641977
+      DC_offset: -3.3143460024085885
+      L0: 6.988350095504644
+      Rcoil: 0.07093345332776164
+      alpha: 0.0010000184073662996
+      Cstray: 17.320098321488018
+    param_errors:
+      U: 0.15799487773849194
+      Cknob: 4.3535003631466385
+      trim: 0.2617715658776313
+      phi_deg: 0.7486711582801632
+      DC_offset: 3.80415053213376
+      L0: 0.0011551233815839121
+      Rcoil: 0.025101541321312825
+      alpha: 0.07092829199953896
+      Cstray: 0.018115425597742253
+    params_at_bound:
+    - alpha
+    fit_seconds: 18.3
+    improved_in_pass2: true
+  14:
+    base_file: data-d/current_2022-06-30_19-32-10.txt
+    base_time: '2022-06-30 19:54:03.922004+00:00'
+    channel: Deuteron5T
+    n_events: 1
+    first_event: '2022-06-30 19:54:03.927754+00:00'
+    last_event: '2022-06-30 19:54:03.927754+00:00'
+    labels:
+      Baseline: 1
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 0.0007825666300765218
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.002434832691978528
+    ptp_V: 0.09874733529125512
+    nrmse: 0.007924939217532734
+    params:
+      U: 0.33319979594354104
+      Cknob: 4.762061116688032
+      trim: 9.191261430120772
+      phi_deg: -76.04668895250985
+      DC_offset: -3.305160153612493
+      L0: 6.986435455747648
+      Rcoil: 0.07180155469626008
+      alpha: 0.00100001601491446
+      Cstray: 17.313031967013774
+    param_errors:
+      U: 0.1575647087740409
+      Cknob: 4.341679705284765
+      trim: 0.2610543347858345
+      phi_deg: 0.7460691468088816
+      DC_offset: 3.796413705949538
+      L0: 0.001219884415364711
+      Rcoil: 0.0277622210686255
+      alpha: 0.07068176242111116
+      Cstray: 0.01738047969046599
+    params_at_bound:
+    - alpha
+    fit_seconds: 18.6
+    improved_in_pass2: true
+  15:
+    base_file: data-d/current_2022-06-30_19-32-10.txt
+    base_time: '2022-06-30 19:55:40.370165+00:00'
+    channel: Deuteron5T
+    n_events: 194
+    first_event: '2022-06-30 19:55:40.370397+00:00'
+    last_event: '2022-06-30 20:36:30.163580+00:00'
+    labels:
+      Baseline: 1
+      Junk: 78
+      Polarize: 115
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 0.0007839939951728371
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.002438981913994276
+    ptp_V: 0.09869906326760702
+    nrmse: 0.007943276959449559
+    params:
+      U: 0.3329999931548648
+      Cknob: 4.759710800793785
+      trim: 9.191736162032916
+      phi_deg: -76.04555974979209
+      DC_offset: -3.3008829448938632
+      L0: 6.986760780399829
+      Rcoil: 0.07183068107135994
+      alpha: 0.0010000159736906213
+      Cstray: 17.313284491920804
+    param_errors:
+      U: 0.1577012037286765
+      Cknob: 4.34693226654195
+      trim: 0.2615261549766818
+      phi_deg: 0.7461929164013636
+      DC_offset: 3.8004878662971913
+      L0: 0.0007445977402635604
+      Rcoil: 0.028843750859231517
+      alpha: 0.07077251397179593
+      Cstray: 0.016643495695373295
+    params_at_bound:
+    - alpha
+    fit_seconds: 19.0
+    improved_in_pass2: true
+  16:
+    base_file: data-d/current_2022-06-30_20-38-17.txt
+    base_time: '2022-06-30 20:42:52.770512+00:00'
+    channel: Deuteron5T-150mV
+    n_events: 53
+    first_event: '2022-06-30 20:42:59.221421+00:00'
+    last_event: '2022-06-30 20:50:13.243854+00:00'
+    labels:
+      Baseline: 53
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 4.521169806874842e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.00019377777032847376
+    ptp_V: 0.030408904795219183
+    nrmse: 0.0014867913978887032
+    params:
+      U: 0.007403386007623236
+      Cknob: 0.93516938386491
+      trim: 4.4563927537461785
+      phi_deg: 27.340637245624553
+      DC_offset: -2.197413786920829
+      L0: 1.9483100712637489
+      Rcoil: 0.253199908271139
+      alpha: 0.016625313836617653
+      Cstray: 1.4379181689126304
+    param_errors:
+      U: 7.853956885701435e-05
+      Cknob: 0.002952693021075169
+      trim: 0.0005932412187848348
+      phi_deg: 0.0004078014136581922
+      DC_offset: 0.005311098507679681
+      L0: 1.8844076392813853e-05
+      Rcoil: 9.069450128571476e-05
+      alpha: 9.763348926459205e-05
+      Cstray: 3.9855704447653254e-08
+    params_at_bound: []
+    fit_seconds: 33.5
+    improved_in_pass2: false
+  17:
+    base_file: data-d/current_2022-06-30_20-38-17.txt
+    base_time: '2022-06-30 20:51:25.577874+00:00'
+    channel: Deuteron5T-150mV
+    n_events: 66
+    first_event: '2022-06-30 20:53:48.938397+00:00'
+    last_event: '2022-07-01 02:36:05.638792+00:00'
+    labels:
+      Polarize: 66
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 3.927560132214187e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.00016916475046979684
+    ptp_V: 0.030008129119550198
+    nrmse: 0.0013088320556630085
+    params:
+      U: 0.024700198388817256
+      Cknob: 0.27609606100609374
+      trim: 1.3654617252884254
+      phi_deg: 9.829097698916154
+      DC_offset: -0.7742459161390178
+      L0: 3.609047778075222
+      Rcoil: 1.0798086248221062
+      alpha: 0.011049849257795478
+      Cstray: 11.7984164155761
+    param_errors:
+      U: 0.0002975759751214345
+      Cknob: 0.0013283721115368967
+      trim: 0.0003155744910539952
+      phi_deg: 0.013746551266209953
+      DC_offset: 0.023394460424063467
+      L0: 0.0006970362953212968
+      Rcoil: 0.012330738355930713
+      alpha: 0.00013478638265642333
+      Cstray: 6.27262736750704e-05
+    params_at_bound: []
+    fit_seconds: 33.7
+    improved_in_pass2: false
+  18:
+    base_file: data-d/current_2022-06-30_20-38-17.txt
+    base_time: '2022-07-01 02:36:29.754906+00:00'
+    channel: Deuteron5T-150mV
+    n_events: 56
+    first_event: '2022-07-01 02:36:05.638792+00:00'
+    last_event: '2022-07-01 02:40:40.011443+00:00'
+    labels:
+      Polarize: 56
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 4.45489976284874e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.00019081082278926687
+    ptp_V: 0.02198125149553931
+    nrmse: 0.0020266815853286517
+    params:
+      U: 0.02069331830605826
+      Cknob: 0.25184173142903404
+      trim: 1.3047674477363733
+      phi_deg: 14.849077099693663
+      DC_offset: -1.2196091405705745
+      L0: 5.2024301688326
+      Rcoil: 0.2997740166398442
+      alpha: 0.0253790419870777
+      Cstray: 14.664769825418956
+    param_errors:
+      U: 0.0004637077214755544
+      Cknob: 0.0022369398114358884
+      trim: 0.0005598199696584803
+      phi_deg: 0.019913636991490846
+      DC_offset: 0.03595501386710795
+      L0: 0.00202162913116152
+      Rcoil: 0.01985544364155743
+      alpha: 0.0002432726408102108
+      Cstray: 9.26703360625419e-05
+    params_at_bound: []
+    fit_seconds: 33.8
+    improved_in_pass2: false
+  19:
+    base_file: data-d/current_2022-07-06_16-02-13.txt
+    base_time: '2022-07-06 16:16:42.147629+00:00'
+    channel: Deuteron5T
+    n_events: 12
+    first_event: '2022-07-06 16:16:42.147927+00:00'
+    last_event: '2022-07-06 16:16:42.147927+00:00'
+    labels:
+      Baseline: 12
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 7.882319315131108e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.00034419339857283404
+    ptp_V: 0.03567816425068404
+    nrmse: 0.0022092838801200327
+    params:
+      U: 0.014296621666121443
+      Cknob: 0.31344576716746525
+      trim: 1.275081672786451
+      phi_deg: -3.8197540539559856
+      DC_offset: -3.2043277346853802
+      L0: 5.413114349592237
+      Rcoil: 0.010016397681366978
+      alpha: 0.024121439109339202
+      Cstray: 14.60235276133538
+    param_errors:
+      U: 0.00021273019611456405
+      Cknob: 0.002622294226730081
+      trim: 0.0005677712471462923
+      phi_deg: 0.0050027919648767535
+      DC_offset: 0.017155342749331958
+      L0: 0.0004415882654135385
+      Rcoil: 0.005049796881566883
+      alpha: 5.611932041277042e-05
+      Cstray: 3.967602195179587e-05
+    params_at_bound:
+    - Rcoil
+    fit_seconds: 19.0
+    improved_in_pass2: true
+  20:
+    base_file: data-d/current_2022-07-06_16-38-38.txt
+    base_time: '2022-07-06 16:48:59.874954+00:00'
+    channel: Deuteron5T
+    n_events: 218
+    first_event: '2022-07-06 16:48:59.879010+00:00'
+    last_event: '2022-07-06 17:07:42.399357+00:00'
+    labels:
+      Baseline: 216
+      Polarize: 2
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 6.814175045941356e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.0002607952424824589
+    ptp_V: 0.04149105207027404
+    nrmse: 0.0016423239966053603
+    params:
+      U: 0.03683610913331041
+      Cknob: 0.25284736410976416
+      trim: 1.4828782563962124
+      phi_deg: 16.549618338444546
+      DC_offset: -1.3587461118026696
+      L0: 0.9580324089745141
+      Rcoil: 0.5538000899655908
+      alpha: 0.01560712330137815
+      Cstray: 12.31494546647195
+    param_errors:
+      U: 0.00037217090143579494
+      Cknob: 0.0010558078837552666
+      trim: 0.00027317543480430645
+      phi_deg: 0.02746554062374673
+      DC_offset: 0.02827476381772467
+      L0: 0.0011619819606122326
+      Rcoil: 0.020820089951544028
+      alpha: 0.00023466940665621747
+      Cstray: 2.195174492836289e-05
+    params_at_bound: []
+    fit_seconds: 33.3
+    improved_in_pass2: false
+  21:
+    base_file: data-d/current_2022-07-06_16-38-38.txt
+    base_time: '2022-07-06 17:09:18.851237+00:00'
+    channel: Deuteron5T
+    n_events: 8
+    first_event: '2022-07-06 17:09:32.648205+00:00'
+    last_event: '2022-07-06 17:13:35.224123+00:00'
+    labels:
+      Baseline: 8
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 7.07402115451945e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.0002710630630371469
+    ptp_V: 0.03843443728816354
+    nrmse: 0.0018405424025026644
+    params:
+      U: 0.032975571696509914
+      Cknob: 0.434009325921906
+      trim: 3.9232533268958605
+      phi_deg: 22.930752158041532
+      DC_offset: -1.698815855524356
+      L0: 17.964302165979785
+      Rcoil: 0.15280974075025536
+      alpha: 0.027243890376922802
+      Cstray: 18.8076398305318
+    param_errors:
+      U: 0.000489235064597274
+      Cknob: 0.0024381691754436024
+      trim: 0.0005545043852441206
+      phi_deg: 0.01780950867628331
+      DC_offset: 0.036363974920643125
+      L0: 0.0006369525314049146
+      Rcoil: 0.002235994411370802
+      alpha: 8.226295372011862e-05
+      Cstray: 0.0002682871385381302
+    params_at_bound: []
+    fit_seconds: 33.7
+    improved_in_pass2: false
+  22:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2022-07-06 17:09:18.851237+00:00'
+    channel: Deuteron5T
+    n_events: 240
+    first_event: '2022-07-06 17:15:33.514960+00:00'
+    last_event: '2022-07-06 18:16:30.000983+00:00'
+    labels:
+      None: 50
+      Polarize: 182
+      Baseline: 8
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 6.998406236966148e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.00026832175128532754
+    ptp_V: 0.03843443728816354
+    nrmse: 0.0018208686612204968
+    params:
+      U: 0.011976024449863116
+      Cknob: 0.41722720749469805
+      trim: 1.2586297225092524
+      phi_deg: 21.462302392728535
+      DC_offset: -3.2974046765503906
+      L0: 5.6892260055500135
+      Rcoil: 0.05684337110965004
+      alpha: 0.023738908437629706
+      Cstray: 1.8474710453441612
+    param_errors:
+      U: 0.00021105306531461954
+      Cknob: 0.002923439646266957
+      trim: 0.0006128768796338706
+      phi_deg: 0.0032678490087381107
+      DC_offset: 0.015607876895055741
+      L0: 0.00014219949522671868
+      Rcoil: 0.0027133911245206615
+      alpha: 0.00010763469227944677
+      Cstray: 2.6923381217507244e-05
+    params_at_bound: []
+    fit_seconds: 17.6
+    improved_in_pass2: true
+  23:
+    base_file: data-d/current_2022-07-06_17-15-02.txt
+    base_time: '2022-07-06 18:18:06.462325+00:00'
+    channel: Deuteron5T
+    n_events: 128
+    first_event: '2022-07-06 18:18:33.057112+00:00'
+    last_event: '2022-07-06 20:22:21.462550+00:00'
+    labels:
+      Junk: 14
+      Polarize: 104
+      Baseline: 10
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 7.920016573553401e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.00030179679485886624
+    ptp_V: 0.035016228405516436
+    nrmse: 0.0022618131461313194
+    params:
+      U: 0.010693554587801565
+      Cknob: 0.38510441095409953
+      trim: 1.2638433256954498
+      phi_deg: 24.648273445783797
+      DC_offset: -3.400474813418831
+      L0: 5.744388809852056
+      Rcoil: 0.10030931471640991
+      alpha: 0.022040775639951743
+      Cstray: 2.0232285316440324
+    param_errors:
+      U: 0.0002454116759157909
+      Cknob: 0.003591295461518441
+      trim: 0.0007549974414263099
+      phi_deg: 0.0035534632836201254
+      DC_offset: 0.017873846855783564
+      L0: 0.00014323606909474786
+      Rcoil: 0.0029503689303665395
+      alpha: 0.00012319504541221803
+      Cstray: 2.605512959450242e-05
+    params_at_bound: []
+    fit_seconds: 17.9
+    improved_in_pass2: true
+  24:
+    base_file: data-d/current_2022-07-06_17-15-02.txt
+    base_time: '2022-07-06 20:23:57.928508+00:00'
+    channel: Deuteron5T
+    n_events: 43
+    first_event: '2022-07-06 20:23:57.934761+00:00'
+    last_event: '2022-07-06 20:35:40.181038+00:00'
+    labels:
+      Baseline: 43
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 7.59290328638097e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.000289201224966007
+    ptp_V: 0.033348176092647286
+    nrmse: 0.0022768571406383683
+    params:
+      U: 0.00999650038737562
+      Cknob: 0.38645876019865305
+      trim: 1.262528079213314
+      phi_deg: 23.5702948345984
+      DC_offset: -3.4381957160282437
+      L0: 5.765882593682561
+      Rcoil: 0.06761386749517372
+      alpha: 0.02236430769347629
+      Cstray: 1.776904446329239
+    param_errors:
+      U: 0.00022588685306224092
+      Cknob: 0.0035580770546692593
+      trim: 0.000746298049304611
+      phi_deg: 0.0030995889106187648
+      DC_offset: 0.016576288556075954
+      L0: 0.00011908672721074889
+      Rcoil: 0.002569457385594558
+      alpha: 0.00012730829354301175
+      Cstray: 2.3859305680333354e-05
+    params_at_bound: []
+    fit_seconds: 18.3
+    improved_in_pass2: true
+  25:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2022-07-06 20:23:57.928508+00:00'
+    channel: Deuteron5T
+    n_events: 19
+    first_event: '2022-07-06 20:38:11.321561+00:00'
+    last_event: '2022-07-06 22:15:10.514075+00:00'
+    labels:
+      None: 5
+      Polarize: 1
+      Baseline: 13
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 7.59290328638097e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.000289201224966007
+    ptp_V: 0.033348176092647286
+    nrmse: 0.0022768571406383683
+    params:
+      U: 0.00999650038737562
+      Cknob: 0.38645876019865305
+      trim: 1.262528079213314
+      phi_deg: 23.5702948345984
+      DC_offset: -3.4381957160282437
+      L0: 5.765882593682561
+      Rcoil: 0.06761386749517372
+      alpha: 0.02236430769347629
+      Cstray: 1.776904446329239
+    param_errors:
+      U: 0.00022588685306224092
+      Cknob: 0.0035580770546692593
+      trim: 0.000746298049304611
+      phi_deg: 0.0030995889106187648
+      DC_offset: 0.016576288556075954
+      L0: 0.00011908672721074889
+      Rcoil: 0.002569457385594558
+      alpha: 0.00012730829354301175
+      Cstray: 2.3859305680333354e-05
+    params_at_bound: []
+    fit_seconds: 19.2
+    improved_in_pass2: true
+  26:
+    base_file: data-d/current_2022-07-06_20-46-00.txt
+    base_time: '2022-07-06 22:16:46.960218+00:00'
+    channel: Deuteron5T
+    n_events: 1020
+    first_event: '2022-07-06 22:17:09.955534+00:00'
+    last_event: '2022-07-07 21:08:54.590849+00:00'
+    labels:
+      Junk: 8
+      Polarize: 1001
+      Baseline: 11
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 8.087234608333917e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.0003074057863035051
+    ptp_V: 0.03329136258133225
+    nrmse: 0.0024292290796378343
+    params:
+      U: 0.011020332513713977
+      Cknob: 0.35893737501179585
+      trim: 1.259598707654882
+      phi_deg: 21.871449619686878
+      DC_offset: -3.349105418156243
+      L0: 5.980491972283051
+      Rcoil: 0.05136213382839839
+      alpha: 0.02333121455239705
+      Cstray: 2.1332979877750913
+    param_errors:
+      U: 0.00029917811534999457
+      Cknob: 0.003972179288725974
+      trim: 0.0008395488056649738
+      phi_deg: 0.0048346067449755534
+      DC_offset: 0.022270251891500982
+      L0: 0.00020971124312364083
+      Rcoil: 0.004059266515448206
+      alpha: 0.00011733439818690753
+      Cstray: 4.0246859115504466e-05
+    params_at_bound: []
+    fit_seconds: 34.4
+    improved_in_pass2: false
+  27:
+    base_file: data-d/current_2022-07-07_20-36-09.txt
+    base_time: '2022-07-07 21:10:31.043084+00:00'
+    channel: Deuteron5T
+    n_events: 10
+    first_event: '2022-07-07 21:10:31.043824+00:00'
+    last_event: '2022-07-07 21:10:31.043824+00:00'
+    labels:
+      Baseline: 10
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 8.514712241341807e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.0003227876234186411
+    ptp_V: 0.03250761906190203
+    nrmse: 0.002619297409978819
+    params:
+      U: 0.009229697272652113
+      Cknob: 0.39287706692945784
+      trim: 1.260895130262979
+      phi_deg: 24.911767256357873
+      DC_offset: -3.4977892030531756
+      L0: 5.791246463989226
+      Rcoil: 0.06080750914751712
+      alpha: 0.0217111859444899
+      Cstray: 1.780294619113261
+    param_errors:
+      U: 0.00024673412325037147
+      Cknob: 0.004251820265774123
+      trim: 0.0008897369054444785
+      phi_deg: 0.0030740663173151935
+      DC_offset: 0.017924926037635697
+      L0: 0.00010471989617114256
+      Rcoil: 0.002541666517473616
+      alpha: 0.00015961069222912084
+      Cstray: 2.362148894976744e-05
+    params_at_bound: []
+    fit_seconds: 19.0
+    improved_in_pass2: true
+  28:
+    base_file: data-d/current_2022-07-07_20-36-09.txt
+    base_time: '2022-07-07 21:12:07.498223+00:00'
+    channel: Deuteron5T
+    n_events: 836
+    first_event: '2022-07-07 21:12:07.503800+00:00'
+    last_event: '2022-07-08 18:59:10.732372+00:00'
+    labels:
+      Baseline: 5
+      Junk: 14
+      Polarize: 817
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 8.528508741697712e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.00032345160716928945
+    ptp_V: 0.0325091568728233
+    nrmse: 0.002623417388233558
+    params:
+      U: 0.00925185017099408
+      Cknob: 0.39226613317729603
+      trim: 1.2578997429096717
+      phi_deg: 24.917072218598058
+      DC_offset: -3.496213603644026
+      L0: 5.870349651328166
+      Rcoil: 0.058615099765482695
+      alpha: 0.021873820004801214
+      Cstray: 1.7973809398003209
+    param_errors:
+      U: 0.0002479924430644421
+      Cknob: 0.004257974641453549
+      trim: 0.0008911291219454155
+      phi_deg: 0.003101030265511732
+      DC_offset: 0.018017136342443875
+      L0: 0.00010523270131004156
+      Rcoil: 0.0025681665141482125
+      alpha: 0.00016013078703317154
+      Cstray: 2.4401145240060446e-05
+    params_at_bound: []
+    fit_seconds: 18.6
+    improved_in_pass2: true
+  29:
+    base_file: data-d/current_2022-07-08_08-53-02.txt
+    base_time: '2022-07-08 19:00:47.181747+00:00'
+    channel: Deuteron5T
+    n_events: 18
+    first_event: '2022-07-08 19:00:47.186258+00:00'
+    last_event: '2022-07-08 19:13:38.836724+00:00'
+    labels:
+      Junk: 13
+      Polarize: 5
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 9.173338238575205e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.00034875863398475815
+    ptp_V: 0.03360697983583005
+    nrmse: 0.0027295931629045278
+    params:
+      U: 0.009439923044582367
+      Cknob: 0.3780625662083158
+      trim: 1.2626002413992568
+      phi_deg: 23.736134429515484
+      DC_offset: -3.469793713230863
+      L0: 5.8271356162461005
+      Rcoil: 0.054937194379752266
+      alpha: 0.021761750046878723
+      Cstray: 1.8901168459152042
+    param_errors:
+      U: 0.0002986087869000891
+      Cknob: 0.004871632227984683
+      trim: 0.001021769413983177
+      phi_deg: 0.003953078232705208
+      DC_offset: 0.021925696948109315
+      L0: 0.00014138378563673367
+      Rcoil: 0.003282426630144131
+      alpha: 0.00016861386008952206
+      Cstray: 3.039381170642439e-05
+    params_at_bound: []
+    fit_seconds: 18.5
+    improved_in_pass2: true
+  30:
+    base_file: data-d/current_2022-07-08_20-46-24.txt
+    base_time: '2022-07-08 21:35:17.900845+00:00'
+    channel: Deuteron5T
+    n_events: 822
+    first_event: '2022-07-08 21:35:17.907215+00:00'
+    last_event: '2022-07-09 18:44:43.403204+00:00'
+    labels:
+      Junk: 4
+      Polarize: 814
+      Baseline: 4
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 7.347405307377902e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.00028393391940095825
+    ptp_V: 0.03311466667258589
+    nrmse: 0.002218776767413601
+    params:
+      U: 0.01021078376050294
+      Cknob: 0.3856222488724891
+      trim: 1.2572535667531597
+      phi_deg: 22.065383790502548
+      DC_offset: -3.410440361061857
+      L0: 5.891658978842027
+      Rcoil: 0.058929303458097486
+      alpha: 0.022822438354223124
+      Cstray: 2.073127554480226
+    param_errors:
+      U: 0.00022256338611943016
+      Cknob: 0.003413689301134947
+      trim: 0.0007163466211686738
+      phi_deg: 0.0031590100540984847
+      DC_offset: 0.016491851484521973
+      L0: 0.0001257404430035858
+      Rcoil: 0.0026406422517420477
+      alpha: 0.00012125231057111606
+      Cstray: 2.5820844175365035e-05
+    params_at_bound: []
+    fit_seconds: 18.6
+    improved_in_pass2: true
+  31:
+    base_file: data-d/current_2022-07-09_10-06-02.txt
+    base_time: '2022-07-09 18:44:21.154478+00:00'
+    channel: Deuteron5T
+    n_events: 138
+    first_event: '2022-07-09 18:51:58.502482+00:00'
+    last_event: '2022-07-09 20:45:41.009486+00:00'
+    labels:
+      Polarize: 132
+      Junk: 2
+      Baseline: 4
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 7.542026100949545e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.0002881011748883111
+    ptp_V: 0.03465961785014393
+    nrmse: 0.0021760269064588734
+    params:
+      U: 0.010090063591341382
+      Cknob: 0.39696299811983443
+      trim: 1.2621699003698754
+      phi_deg: 21.748591946886084
+      DC_offset: -3.428094413166098
+      L0: 5.722534034065935
+      Rcoil: 0.0575915956276361
+      alpha: 0.022404404868759283
+      Cstray: 1.3169453835700773
+    param_errors:
+      U: 0.00022727594960583966
+      Cknob: 0.0035886360569129193
+      trim: 0.000751433487154584
+      phi_deg: 0.003124086069699128
+      DC_offset: 0.016845423643738654
+      L0: 0.00011583249529244195
+      Rcoil: 0.00257594017569749
+      alpha: 0.00013264136230356212
+      Cstray: 2.4256572833238884e-05
+    params_at_bound: []
+    fit_seconds: 18.5
+    improved_in_pass2: true
+  32:
+    base_file: data-d/current_2022-07-09_10-06-02.txt
+    base_time: '2022-07-09 20:48:53.898963+00:00'
+    channel: Deuteron5T
+    n_events: 876
+    first_event: '2022-07-09 20:56:29.779062+00:00'
+    last_event: '2022-07-10 20:07:02.972412+00:00'
+    labels:
+      Polarize: 874
+      Baseline: 2
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 7.353036510884437e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.0002810910420354418
+    ptp_V: 0.034141301333962204
+    nrmse: 0.0021537071592435094
+    params:
+      U: 0.010527818213793885
+      Cknob: 0.3915063881465491
+      trim: 1.2577083168073395
+      phi_deg: 22.000063412931308
+      DC_offset: -3.396684675388369
+      L0: 5.85054535184673
+      Rcoil: 0.05700952629806115
+      alpha: 0.02294307887422424
+      Cstray: 2.021071909012212
+    param_errors:
+      U: 0.00022267591872161647
+      Cknob: 0.003344845873075522
+      trim: 0.0007018067248687554
+      phi_deg: 0.003211613679077281
+      DC_offset: 0.016490335754142896
+      L0: 0.0001294984590211483
+      Rcoil: 0.002680187898551172
+      alpha: 0.00011953607045740701
+      Cstray: 2.6282513314845016e-05
+    params_at_bound: []
+    fit_seconds: 18.0
+    improved_in_pass2: true
+  33:
+    base_file: data-d/current_2022-07-10_10-59-12.txt
+    base_time: '2022-07-10 20:10:15.849057+00:00'
+    channel: Deuteron5T
+    n_events: 1091
+    first_event: '2022-07-10 20:18:01.759887+00:00'
+    last_event: '2022-07-12 01:53:37.387211+00:00'
+    labels:
+      Polarize: 1091
+    cc_values:
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 7.553563449813558e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.0002857997873286777
+    ptp_V: 0.0330276723950238
+    nrmse: 0.002287040806106468
+    params:
+      U: 0.010644772209671848
+      Cknob: 0.3769416432169629
+      trim: 1.2636242595605072
+      phi_deg: 21.924600649643256
+      DC_offset: -3.3754416218299177
+      L0: 5.567619958659148
+      Rcoil: 0.05631010006235539
+      alpha: 0.023117203104795987
+      Cstray: 17.604863366036813
+    param_errors:
+      U: 0.00024377190214507218
+      Cknob: 0.0034963726527721334
+      trim: 0.000743195540885023
+      phi_deg: 0.003660119125334057
+      DC_offset: 0.01809778331971455
+      L0: 0.0003222991384220663
+      Rcoil: 0.0037217677039238215
+      alpha: 0.00010212328832391894
+      Cstray: 3.115029862022457e-05
+    params_at_bound: []
+    fit_seconds: 18.4
+    improved_in_pass2: true
+  34:
+    base_file: data-d/current_2022-07-19_14-45-06.txt
+    base_time: '2022-07-19 15:22:06.724789+00:00'
+    channel: Deuteron5T
+    n_events: 2
+    first_event: '2022-07-19 15:22:06.733718+00:00'
+    last_event: '2022-07-19 15:23:43.180299+00:00'
+    labels:
+      Baseline: 2
+    cc_values:
+    - -3.701902
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 7.521537935918662e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.0002917577455514575
+    ptp_V: 0.03306998659302707
+    nrmse: 0.002274430294902087
+    params:
+      U: 0.010864217104366596
+      Cknob: 0.3721551056480093
+      trim: 1.2607807194068439
+      phi_deg: 21.95722799576228
+      DC_offset: -3.3552137558594963
+      L0: 5.645738112599965
+      Rcoil: 0.05176619600307099
+      alpha: 0.023431960480204617
+      Cstray: 18.553537872639
+    param_errors:
+      U: 0.0002486853539619529
+      Cknob: 0.003454766723913802
+      trim: 0.0007364277208048293
+      phi_deg: 0.003844573603583916
+      DC_offset: 0.018469034393857536
+      L0: 0.0003550083717303992
+      Rcoil: 0.003973241493089728
+      alpha: 9.530736297660408e-05
+      Cstray: 3.415484682972052e-05
+    params_at_bound: []
+    fit_seconds: 18.9
+    improved_in_pass2: true
+  35:
+    base_file: data-d/current_2022-07-19_14-45-06.txt
+    base_time: '2022-07-19 15:25:19.688809+00:00'
+    channel: Deuteron5T
+    n_events: 117
+    first_event: '2022-07-19 15:25:19.700082+00:00'
+    last_event: '2022-07-19 18:28:48.274273+00:00'
+    labels:
+      Junk: 4
+      Polarize: 113
+    cc_values:
+    - -3.701902
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 7.5379787887684e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.0002907991077680805
+    ptp_V: 0.033180995387711576
+    nrmse: 0.0022717759671429427
+    params:
+      U: 0.0105352692908509
+      Cknob: 0.3776264687561115
+      trim: 1.2590459924884712
+      phi_deg: 22.012002523818133
+      DC_offset: -3.3803174252013473
+      L0: 5.660567576585384
+      Rcoil: 0.053372500640091
+      alpha: 0.02323195940985526
+      Cstray: 18.59631461659888
+    param_errors:
+      U: 0.00024201645207394155
+      Cknob: 0.0035108703040278785
+      trim: 0.000746397335540132
+      phi_deg: 0.0035932303784967793
+      DC_offset: 0.017956810235810878
+      L0: 0.00032731949191362134
+      Rcoil: 0.003715881132068004
+      alpha: 0.00010305141143381135
+      Cstray: 3.2038365971255756e-05
+    params_at_bound: []
+    fit_seconds: 17.4
+    improved_in_pass2: true
+  36:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2022-07-19 15:25:19.688809+00:00'
+    channel: Deuteron5T-300mV
+    n_events: 3
+    first_event: '2022-07-19 18:56:24.923763+00:00'
+    last_event: '2022-07-19 18:58:49.597785+00:00'
+    labels:
+      Polarize: 3
+    cc_values:
+    - -3.701902
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 7.5379787887684e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.0002907991077680805
+    ptp_V: 0.033180995387711576
+    nrmse: 0.0022717759671429427
+    params:
+      U: 0.0105352692908509
+      Cknob: 0.3776264687561115
+      trim: 1.2590459924884712
+      phi_deg: 22.012002523818133
+      DC_offset: -3.3803174252013473
+      L0: 5.660567576585384
+      Rcoil: 0.053372500640091
+      alpha: 0.02323195940985526
+      Cstray: 18.59631461659888
+    param_errors:
+      U: 0.00024201645207394155
+      Cknob: 0.0035108703040278785
+      trim: 0.000746397335540132
+      phi_deg: 0.0035932303784967793
+      DC_offset: 0.017956810235810878
+      L0: 0.00032731949191362134
+      Rcoil: 0.003715881132068004
+      alpha: 0.00010305141143381135
+      Cstray: 3.2038365971255756e-05
+    params_at_bound: []
+    fit_seconds: 17.4
+    improved_in_pass2: true
+  37:
+    base_file: data-d/current_2022-07-19_19-07-58.txt
+    base_time: '2022-07-19 19:28:57.357601+00:00'
+    channel: Deuteron5T
+    n_events: 142
+    first_event: '2022-07-19 19:28:57.361681+00:00'
+    last_event: '2022-07-19 23:12:10.129995+00:00'
+    labels:
+      Junk: 9
+      Polarize: 133
+    cc_values:
+    - -3.701902
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 7.614784806095161e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.000293405818717396
+    ptp_V: 0.03352919916679742
+    nrmse: 0.002271090570405203
+    params:
+      U: 0.010667409972789775
+      Cknob: 0.37536375878208766
+      trim: 1.2643696834704221
+      phi_deg: 21.714055099830453
+      DC_offset: -3.3698769771005503
+      L0: 5.550783742632889
+      Rcoil: 0.0516730014207849
+      alpha: 0.023128066238573414
+      Cstray: 18.270010681661855
+    param_errors:
+      U: 0.0002509219511058379
+      Cknob: 0.003569859862634471
+      trim: 0.0007595890815693299
+      phi_deg: 0.0037930487263561122
+      DC_offset: 0.01865668468679648
+      L0: 0.00034213023476444877
+      Rcoil: 0.0038868666333553505
+      alpha: 0.00010174844757000982
+      Cstray: 3.2410002976144426e-05
+    params_at_bound: []
+    fit_seconds: 16.9
+    improved_in_pass2: true
+  38:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2022-07-19 19:28:57.357601+00:00'
+    channel: Deuteron5T
+    n_events: 291
+    first_event: '2022-07-20 00:13:57.639191+00:00'
+    last_event: '2022-07-20 19:56:41.990682+00:00'
+    labels:
+      None: 1
+      Polarize: 290
+    cc_values:
+    - -3.701902
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 7.614784806095161e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.000293405818717396
+    ptp_V: 0.03352919916679742
+    nrmse: 0.002271090570405203
+    params:
+      U: 0.010667409972789775
+      Cknob: 0.37536375878208766
+      trim: 1.2643696834704221
+      phi_deg: 21.714055099830453
+      DC_offset: -3.3698769771005503
+      L0: 5.550783742632889
+      Rcoil: 0.0516730014207849
+      alpha: 0.023128066238573414
+      Cstray: 18.270010681661855
+    param_errors:
+      U: 0.0002509219511058379
+      Cknob: 0.003569859862634471
+      trim: 0.0007595890815693299
+      phi_deg: 0.0037930487263561122
+      DC_offset: 0.01865668468679648
+      L0: 0.00034213023476444877
+      Rcoil: 0.0038868666333553505
+      alpha: 0.00010174844757000982
+      Cstray: 3.2410002976144426e-05
+    params_at_bound: []
+    fit_seconds: 16.1
+    improved_in_pass2: true
+  39:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2022-07-20 23:46:59.647458+00:00'
+    channel: Deuteron5T-400mV
+    n_events: 976
+    first_event: '2022-07-21 00:24:48.965515+00:00'
+    last_event: '2022-07-21 19:09:18.584790+00:00'
+    labels:
+      Polarize: 976
+    cc_values:
+    - -20.0
+    - -3.701902
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 4.666198692675541e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.00021193344615877407
+    ptp_V: 0.10157244860619219
+    nrmse: 0.0004593961016699438
+    params:
+      U: 0.05625653434912152
+      Cknob: 1.3099799078006518
+      trim: 4.38479989646324
+      phi_deg: 24.18967367671207
+      DC_offset: -2.75915376863944
+      L0: 1.7309862472101758
+      Rcoil: 0.09923621377802457
+      alpha: 0.027452984209075496
+      Cstray: 15.491285306084498
+    param_errors:
+      U: 0.00024685607370010537
+      Cknob: 0.0018087486170320498
+      trim: 0.0003435884213699671
+      phi_deg: 0.004491637048306747
+      DC_offset: 0.01452876681315034
+      L0: 0.00014582495387771064
+      Rcoil: 0.0010501049373067694
+      alpha: 6.259798935754058e-05
+      Cstray: 2.359894503532132e-06
+    params_at_bound: []
+    fit_seconds: 34.4
+    improved_in_pass2: false
+  40:
+    base_file: data-d/current_2022-07-21_20-30-57.txt
+    base_time: '2022-07-21 20:59:03.376895+00:00'
+    channel: Deuteron5T-400mV
+    n_events: 839
+    first_event: '2022-07-21 20:59:03.378231+00:00'
+    last_event: '2022-07-22 14:53:16.150613+00:00'
+    labels:
+      Baseline: 15
+      Junk: 35
+      Polarize: 789
+    cc_values:
+    - -14.5
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 4.336915441832147e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.0002021493014598974
+    ptp_V: 0.09987142109351943
+    nrmse: 0.00043424989795339615
+    params:
+      U: 0.14680961388076402
+      Cknob: 0.7718919597807313
+      trim: 4.142304312161063
+      phi_deg: 10.944617447085822
+      DC_offset: 4.605974344975754
+      L0: 9.531058509097768
+      Rcoil: 0.7701475922647273
+      alpha: 0.03979640976496768
+      Cstray: 19.26604635316841
+    param_errors:
+      U: 0.00028771572578835706
+      Cknob: 0.0014970175382337325
+      trim: 0.00032627743880844155
+      phi_deg: 0.02213861593296866
+      DC_offset: 0.019160906134082202
+      L0: 0.0007159679551880073
+      Rcoil: 0.006223938971438273
+      alpha: 4.568153283768798e-05
+      Cstray: 0.0002367377136513256
+    params_at_bound: []
+    fit_seconds: 34.4
+    improved_in_pass2: false
+  41:
+    base_file: data-d/current_2022-07-22_05-38-39.txt
+    base_time: '2022-07-22 14:53:16.150344+00:00'
+    channel: Deuteron5T-400mV
+    n_events: 2233
+    first_event: '2022-07-22 15:02:22.886855+00:00'
+    last_event: '2022-07-24 23:00:37.059699+00:00'
+    labels:
+      Polarize: 2233
+    cc_values:
+    - -14.5
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 4.3410621754097764e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.0002018485213834964
+    ptp_V: 0.09984171411982867
+    nrmse: 0.0004347944357405255
+    params:
+      U: 0.4359324444980696
+      Cknob: 0.43354695739600824
+      trim: 3.8856292587908516
+      phi_deg: 1.6595095044845898
+      DC_offset: 27.91637646768472
+      L0: 18.701516350839587
+      Rcoil: 0.34549482220313404
+      alpha: 0.051684454980990176
+      Cstray: 16.14949481855661
+    param_errors:
+      U: 0.0001106904071452557
+      Cknob: 0.0010591017891095093
+      trim: 0.0002622965020638757
+      phi_deg: 0.03311517704768971
+      DC_offset: 0.006746925968668789
+      L0: 0.0015552615411755606
+      Rcoil: 0.0038993018851366168
+      alpha: 8.29374127881746e-05
+      Cstray: 0.0005852740037904302
+    params_at_bound: []
+    fit_seconds: 34.2
+    improved_in_pass2: false
+  42:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2022-07-21 20:59:03.376895+00:00'
+    channel: Deuteron5T-400mV
+    n_events: 34
+    first_event: '2022-07-24 23:02:13.518413+00:00'
+    last_event: '2022-07-24 23:34:22.641093+00:00'
+    labels:
+      Polarize: 34
+    cc_values:
+    - -14.5
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 4.316761825558065e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.0002014164141819208
+    ptp_V: 0.09987142109351943
+    nrmse: 0.00043223194165985246
+    params:
+      U: 0.19124800574858158
+      Cknob: 0.6715712865843145
+      trim: 4.367662422165231
+      phi_deg: 7.493837068385339
+      DC_offset: 8.200748481284442
+      L0: 4.6107104581748235
+      Rcoil: 2.804270106511521
+      alpha: 0.02816011624035551
+      Cstray: 16.71097757344966
+    param_errors:
+      U: 0.00024060575404231314
+      Cknob: 0.001442346454172599
+      trim: 0.00031984308750639405
+      phi_deg: 0.025800030283398837
+      DC_offset: 0.015813269871222106
+      L0: 0.0011809898980034903
+      Rcoil: 0.007823699527471256
+      alpha: 4.661531300304281e-05
+      Cstray: 0.00016045861770976202
+    params_at_bound: []
+    fit_seconds: 36.0
+    improved_in_pass2: false
+  43:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2022-07-22 14:53:16.150344+00:00'
+    channel: Deuteron5T-400mV
+    n_events: 1792
+    first_event: '2022-07-24 23:35:59.085069+00:00'
+    last_event: '2022-07-27 06:53:12.752475+00:00'
+    labels:
+      Polarize: 1780
+      Junk: 1
+      Baseline: 11
+    cc_values:
+    - -14.5
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 4.397334543831562e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.00020384353160363133
+    ptp_V: 0.09984171411982867
+    nrmse: 0.00044043059382513615
+    params:
+      U: 0.17755925632242867
+      Cknob: 0.6936147063796274
+      trim: 4.494116955875825
+      phi_deg: 8.792757306865408
+      DC_offset: 7.1097220257907905
+      L0: 1.5786513193549894
+      Rcoil: 0.5005530425480996
+      alpha: 0.03640720847291054
+      Cstray: 8.921105945681834
+    param_errors:
+      U: 0.00026085241855802353
+      Cknob: 0.0014729018789317759
+      trim: 0.0003231238119894717
+      phi_deg: 0.025795506239171987
+      DC_offset: 0.017259001103045197
+      L0: 0.0010417470058422325
+      Rcoil: 0.00690079181459776
+      alpha: 4.337270397300275e-05
+      Cstray: 3.08270062286145e-06
+    params_at_bound: []
+    fit_seconds: 34.4
+    improved_in_pass2: false
+  44:
+    base_file: data-d/current_2022-07-26_12-47-29.txt
+    base_time: '2022-07-27 06:54:49.222444+00:00'
+    channel: Deuteron5T-400mV
+    n_events: 1152
+    first_event: '2022-07-27 06:54:49.229560+00:00'
+    last_event: '2022-07-28 13:25:12.137939+00:00'
+    labels:
+      Baseline: 2
+      Junk: 7
+      Polarize: 1143
+    cc_values:
+    - -14.5
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 4.440479387082159e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.00020548736013381586
+    ptp_V: 0.10278100355428776
+    nrmse: 0.000432033083305783
+    params:
+      U: 0.10918249802709831
+      Cknob: 0.9065539708186521
+      trim: 4.095422507372076
+      phi_deg: 13.854668545212535
+      DC_offset: 1.5398040311976255
+      L0: 10.760897399928362
+      Rcoil: 0.23200063693479014
+      alpha: 0.04016658151588557
+      Cstray: 4.825029852780138
+    param_errors:
+      U: 0.00032853791210696553
+      Cknob: 0.0015115555045084
+      trim: 0.0003312518048281883
+      phi_deg: 0.016836302309929527
+      DC_offset: 0.021889442029294763
+      L0: 0.0003213001957630028
+      Rcoil: 0.00294549206530432
+      alpha: 5.709950784041364e-05
+      Cstray: 0.00023543473739600273
+    params_at_bound: []
+    fit_seconds: 34.5
+    improved_in_pass2: false
+  45:
+    base_file: data-d/current_2022-07-28_13-46-44.txt
+    base_time: '2022-07-28 14:01:15.865784+00:00'
+    channel: Deuteron5T-800kHz
+    n_events: 3
+    first_event: '2022-07-28 14:04:19.348759+00:00'
+    last_event: '2022-07-28 14:09:29.767018+00:00'
+    labels:
+      None: 3
+    cc_values:
+    - -14.5
+    freq_min_mhz: 31.900000000000002
+    freq_max_mhz: 33.483959960937504
+    n_bins: 512
+    rms_V: 0.0004340388758968666
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.003667315758377754
+    ptp_V: 0.29861309080119813
+    nrmse: 0.0014535159015712014
+    params:
+      U: 18.86618524563384
+      Cknob: 0.055594787769468655
+      trim: 4.507087022617525
+      phi_deg: -89.59233882319906
+      DC_offset: -12.644158429367142
+      L0: 2.778031730855611
+      Rcoil: 5.201389323946405
+      alpha: 0.012387925601529735
+      Cstray: 10.976282584953285
+    param_errors:
+      U: 0.03550673297543606
+      Cknob: 0.00018541072323451847
+      trim: 0.00015865688885458433
+      phi_deg: 0.0018789914493529637
+      DC_offset: 0.0005961883634028962
+      L0: 5.181918389598741e-05
+      Rcoil: 0.0035872361354263973
+      alpha: 8.534481616158949e-05
+      Cstray: 0.00017044848717022603
+    params_at_bound: []
+    fit_seconds: 34.4
+    improved_in_pass2: false
+  46:
+    base_file: data-d/current_2022-07-28_13-46-44.txt
+    base_time: '2022-07-28 14:09:22.059034+00:00'
+    channel: Deuteron5T
+    n_events: 1
+    first_event: '2022-07-28 14:09:51.128009+00:00'
+    last_event: '2022-07-28 14:09:51.128009+00:00'
+    labels:
+      None: 1
+    cc_values:
+    - -14.5
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 5.120723416428819e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.00023144760497029182
+    ptp_V: 0.10800598614728596
+    nrmse: 0.0004741147781795885
+    params:
+      U: 0.25963474976409917
+      Cknob: 0.5605293525483173
+      trim: 4.11003736665951
+      phi_deg: 5.253959037897534
+      DC_offset: 13.778679601488692
+      L0: 12.357896808488528
+      Rcoil: 0.7048058604911227
+      alpha: 0.04385061509757745
+      Cstray: 2.681331758135662
+    param_errors:
+      U: 0.00024699818219841283
+      Cknob: 0.001445761082782117
+      trim: 0.00032750467435447184
+      phi_deg: 0.04001005777854572
+      DC_offset: 0.01576414089754304
+      L0: 0.0005174914350961383
+      Rcoil: 0.006357340453143386
+      alpha: 6.865386906420223e-05
+      Cstray: 0.0004490367672340137
+    params_at_bound: []
+    fit_seconds: 33.3
+    improved_in_pass2: false
+  47:
+    base_file: data-d/current_2022-07-28_15-01-03.txt
+    base_time: '2022-07-28 15:43:47.609899+00:00'
+    channel: Deuteron5T
+    n_events: 407
+    first_event: '2022-07-28 15:44:25.385239+00:00'
+    last_event: '2022-07-28 20:19:53.973468+00:00'
+    labels:
+      Baseline: 33
+      Junk: 113
+      Polarize: 261
+    cc_values:
+    - -14.5
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 4.3040463088689196e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.00020067345325358588
+    ptp_V: 0.10365009416388826
+    nrmse: 0.0004152476988649424
+    params:
+      U: 0.616272106716857
+      Cknob: 0.3926123001045987
+      trim: 4.386142875405861
+      phi_deg: -0.21038063126114992
+      DC_offset: 42.15701319780497
+      L0: 5.601839916356207
+      Rcoil: 1.3278133295789067
+      alpha: 0.040572322904732096
+      Cstray: 5.11344019019466
+    param_errors:
+      U: 9.252250911572484e-05
+      Cknob: 0.0009860316829318576
+      trim: 0.0002698724948551638
+      phi_deg: 0.03201487784380798
+      DC_offset: 0.004635419685316821
+      L0: 0.0017281953612425084
+      Rcoil: 0.009624946466444679
+      alpha: 8.600086719120095e-05
+      Cstray: 3.2886670352233084e-05
+    params_at_bound: []
+    fit_seconds: 34.5
+    improved_in_pass2: false
+  48:
+    base_file: data-d/current_2022-07-28_15-01-03.txt
+    base_time: '2022-07-28 20:21:30.427865+00:00'
+    channel: Deuteron5T
+    n_events: 3404
+    first_event: '2022-07-28 20:21:30.428097+00:00'
+    last_event: '2022-08-01 13:27:18.354158+00:00'
+    labels:
+      Baseline: 1
+      Junk: 14
+      Polarize: 3389
+    cc_values:
+    - -14.5
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 4.886096112366886e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.00022254626284290424
+    ptp_V: 0.10054225526665306
+    nrmse: 0.0004859743895149587
+    params:
+      U: 0.051317736325114216
+      Cknob: 1.3454826206014034
+      trim: 4.300264445220981
+      phi_deg: 25.024930875181536
+      DC_offset: -3.114120273850567
+      L0: 3.685636775618979
+      Rcoil: 0.30824243279230806
+      alpha: 0.025924423478416177
+      Cstray: 6.0173720602135266
+    param_errors:
+      U: 0.0002417548039751088
+      Cknob: 0.001774764757056063
+      trim: 0.00033153596720171915
+      phi_deg: 0.003934429500093913
+      DC_offset: 0.014116496134467693
+      L0: 8.478044562014267e-05
+      Rcoil: 0.0008726250937163694
+      alpha: 6.960488906503976e-05
+      Cstray: 7.915967423926227e-06
+    params_at_bound: []
+    fit_seconds: 33.5
+    improved_in_pass2: false
+  49:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2022-07-28 20:21:30.427865+00:00'
+    channel: Deuteron5T
+    n_events: 51
+    first_event: '2022-08-01 15:22:30.409978+00:00'
+    last_event: '2022-08-01 15:45:12.583010+00:00'
+    labels:
+      Polarize: 44
+      Baseline: 7
+    cc_values:
+    - -14.5
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 4.7956971973464516e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.0002193658323399461
+    ptp_V: 0.10054225526665306
+    nrmse: 0.0004769832529246084
+    params:
+      U: 0.1345724445743874
+      Cknob: 1.049645511577488
+      trim: 7.443823001501168
+      phi_deg: 18.34816336850965
+      DC_offset: 3.4466439400290425
+      L0: 4.495516829711002
+      Rcoil: 0.584571534834829
+      alpha: 0.03594877136628895
+      Cstray: 11.965971994458979
+    param_errors:
+      U: 0.0004022757985263719
+      Cknob: 0.0018842293232546028
+      trim: 0.00041912213233456856
+      phi_deg: 0.020835926439586563
+      DC_offset: 0.02666627849634955
+      L0: 0.0005087312019554727
+      Rcoil: 0.0032962464910335065
+      alpha: 5.76779528288052e-05
+      Cstray: 2.5362200124962197e-05
+    params_at_bound: []
+    fit_seconds: 32.6
+    improved_in_pass2: false
+  50:
+    base_file: data-d/current_2022-08-01_15-19-14.txt
+    base_time: '2022-08-01 15:46:49.040161+00:00'
+    channel: Deuteron5T
+    n_events: 3545
+    first_event: '2022-08-01 15:46:49.046736+00:00'
+    last_event: '2022-08-05 14:06:04.134599+00:00'
+    labels:
+      Baseline: 1
+      Junk: 37
+      Polarize: 3507
+    cc_values:
+    - -14.5
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 4.6248978112271687e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.00021290565904319436
+    ptp_V: 0.102594457046421
+    nrmse: 0.00045079412127835885
+    params:
+      U: 0.18563532865821192
+      Cknob: 0.898205181763419
+      trim: 7.185774029553096
+      phi_deg: 14.475171044048562
+      DC_offset: 7.567319500330627
+      L0: 11.69740009891693
+      Rcoil: 1.6977141753257698
+      alpha: 0.03799227172443774
+      Cstray: 9.979582163740709
+    param_errors:
+      U: 0.0003544951054522813
+      Cknob: 0.0018970080463113377
+      trim: 0.0004390175793012713
+      phi_deg: 0.027807585157535182
+      DC_offset: 0.02334125460739265
+      L0: 0.0001474358107771817
+      Rcoil: 0.0029498611310971676
+      alpha: 6.244655517183884e-05
+      Cstray: 0.00012994259531612604
+    params_at_bound: []
+    fit_seconds: 33.6
+    improved_in_pass2: false
+  51:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2022-08-01 15:46:49.040161+00:00'
+    channel: Deuteron5T-300mV
+    n_events: 26
+    first_event: '2022-08-05 14:31:32.149799+00:00'
+    last_event: '2022-08-05 15:42:50.259706+00:00'
+    labels:
+      None: 11
+      Polarize: 1
+      Baseline: 14
+    cc_values:
+    - -14.5
+    - -5.246731
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 4.634352728969957e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.0002132324207577696
+    ptp_V: 0.102594457046421
+    nrmse: 0.00045171570301045085
+    params:
+      U: 0.16338531015414023
+      Cknob: 0.9634246567444249
+      trim: 7.194459338923361
+      phi_deg: 16.090477439094503
+      DC_offset: 5.759960609016159
+      L0: 10.883167492202714
+      Rcoil: 2.0999438793857053
+      alpha: 0.03590628716065222
+      Cstray: 15.0387378497826
+    param_errors:
+      U: 0.00037310116096776936
+      Cknob: 0.0019144040289863966
+      trim: 0.00043502377395252293
+      phi_deg: 0.024648088617142218
+      DC_offset: 0.024626130721792577
+      L0: 0.0004485670404863003
+      Rcoil: 0.003198375721562889
+      alpha: 6.068117227582748e-05
+      Cstray: 7.586684423032086e-05
+    params_at_bound: []
+    fit_seconds: 33.7
+    improved_in_pass2: false
+  52:
+    base_file: data-d/current_2022-08-05_14-57-12.txt
+    base_time: '2022-08-05 15:44:26.716720+00:00'
+    channel: Deuteron5T
+    n_events: 316
+    first_event: '2022-08-05 15:44:26.717023+00:00'
+    last_event: '2022-08-05 21:09:11.677944+00:00'
+    labels:
+      Baseline: 51
+      Junk: 46
+      Polarize: 219
+    cc_values:
+    - -14.5
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 4.6623684818960387e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.00021465607657411567
+    ptp_V: 0.10225871624439709
+    nrmse: 0.00045593849141945366
+    params:
+      U: 0.2230572604781732
+      Cknob: 0.627482719008543
+      trim: 4.486888500015491
+      phi_deg: 8.199517319460833
+      DC_offset: 10.75884139820739
+      L0: 2.0829247116416885
+      Rcoil: 0.3458214254950561
+      alpha: 0.0385243009045903
+      Cstray: 12.224810651042214
+    param_errors:
+      U: 0.0002312350469969005
+      Cknob: 0.0014927675970613005
+      trim: 0.0003264594206166177
+      phi_deg: 0.02986925329591157
+      DC_offset: 0.014695956512545022
+      L0: 0.00137450127339547
+      Rcoil: 0.008420328755801783
+      alpha: 5.151744291801362e-05
+      Cstray: 5.987236721848482e-06
+    params_at_bound: []
+    fit_seconds: 34.2
+    improved_in_pass2: false
+  53:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2022-08-05 15:44:26.716720+00:00'
+    channel: Deuteron5T
+    n_events: 2508
+    first_event: '2022-08-05 21:12:27.581669+00:00'
+    last_event: '2022-08-08 14:32:56.642179+00:00'
+    labels:
+      Polarize: 2508
+    cc_values:
+    - -14.5
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 4.661560805135272e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.00021463083230521818
+    ptp_V: 0.10225871624439709
+    nrmse: 0.00045585950776012076
+    params:
+      U: 0.2272791664806113
+      Cknob: 0.6217223173793542
+      trim: 4.379394039266303
+      phi_deg: 8.074833828446874
+      DC_offset: 11.099681473551454
+      L0: 4.663701064725433
+      Rcoil: 0.6364840571487
+      alpha: 0.039133909938732836
+      Cstray: 13.631935235017169
+    param_errors:
+      U: 0.00022676285976761345
+      Cknob: 0.0014852688013830906
+      trim: 0.0003243719988464025
+      phi_deg: 0.02993305119972138
+      DC_offset: 0.014341268705555453
+      L0: 0.0014652719073834507
+      Rcoil: 0.008884141511614105
+      alpha: 5.4583629625881044e-05
+      Cstray: 4.8508556461665704e-05
+    params_at_bound: []
+    fit_seconds: 33.9
+    improved_in_pass2: false
+  54:
+    base_file: data-d/current_2022-08-08_16-14-34.txt
+    base_time: '2022-08-08 16:28:22.539316+00:00'
+    channel: Deuteron5T
+    n_events: 4
+    first_event: '2022-08-08 16:29:45.303777+00:00'
+    last_event: '2022-08-08 16:34:34.632050+00:00'
+    labels:
+      Junk: 4
+    cc_values:
+    - -8.0
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 4.321585626545404e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.00020147148522298153
+    ptp_V: 0.10456429261396227
+    nrmse: 0.0004132945882874314
+    params:
+      U: 0.506999165174362
+      Cknob: 0.5381668953643335
+      trim: 7.334725300295775
+      phi_deg: 3.507737536503384
+      DC_offset: 33.474963976583894
+      L0: 9.765802899303809
+      Rcoil: 0.17162845461148016
+      alpha: 0.04442042222421537
+      Cstray: 0.8095172045440676
+    param_errors:
+      U: 0.00013229577841619722
+      Cknob: 0.0013168424366168036
+      trim: 0.00036235218681731794
+      phi_deg: 0.03663649904567911
+      DC_offset: 0.008847591464379983
+      L0: 1.3283369715623349e-05
+      Rcoil: 0.004495846386629444
+      alpha: 7.13535357582392e-05
+      Cstray: 0.00020694909093767902
+    params_at_bound: []
+    fit_seconds: 34.6
+    improved_in_pass2: false
+  55:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2022-08-08 16:28:22.539316+00:00'
+    channel: Deuteron5T
+    n_events: 2747
+    first_event: '2022-08-08 16:37:15.226319+00:00'
+    last_event: '2022-08-11 13:46:38.354115+00:00'
+    labels:
+      Polarize: 2728
+      None: 19
+    cc_values:
+    - -14.5
+    - -8.0
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 4.42327706458602e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.0002049014990639364
+    ptp_V: 0.10456429261396227
+    nrmse: 0.0004230198430085672
+    params:
+      U: 0.2175645938078098
+      Cknob: 0.8378984346944488
+      trim: 7.341912302387599
+      phi_deg: 12.636259697402977
+      DC_offset: 10.125640720184704
+      L0: 7.821086264122196
+      Rcoil: 0.5259103999395816
+      alpha: 0.04045850608540932
+      Cstray: 10.922022280116781
+    param_errors:
+      U: 0.0003024737017994839
+      Cknob: 0.0018398031038500953
+      trim: 0.0004329670381718829
+      phi_deg: 0.028532370220875056
+      DC_offset: 0.01967729652566139
+      L0: 0.00045208606287376976
+      Rcoil: 0.004360268602282836
+      alpha: 5.708241325435343e-05
+      Cstray: 0.000124155204692167
+    params_at_bound: []
+    fit_seconds: 34.9
+    improved_in_pass2: false
+  56:
+    base_file: data-d/current_2022-09-04_17-11-23.txt
+    base_time: '2022-09-06 18:21:15.005727+00:00'
+    channel: Deuteron5T
+    n_events: 838
+    first_event: '2022-09-06 18:24:54.647802+00:00'
+    last_event: '2022-09-07 15:57:04.419533+00:00'
+    labels:
+      Polarize: 832
+      Baseline: 6
+    cc_values:
+    - -14.5
+    - -2.36
+    - -1.34
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 1.2119979891225533e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 4.4486018670575334e-05
+    ptp_V: 0.020418176560544676
+    nrmse: 0.0005935877699601114
+    params:
+      U: 0.5237689196019055
+      Cknob: 1.0176306864806008
+      trim: 6.783863439816561
+      phi_deg: -78.55643535809298
+      DC_offset: -1.9331155619236557
+      L0: 9.0941144802003
+      Rcoil: 0.34933040278043415
+      alpha: 0.10360275537807938
+      Cstray: 10.347302903174288
+    param_errors:
+      U: 0.007123522271106849
+      Cknob: 0.037716157106582944
+      trim: 0.020862535006596954
+      phi_deg: 0.09724170154261476
+      DC_offset: 0.1716649439587158
+      L0: 0.0002990325397565974
+      Rcoil: 0.0024114660104884713
+      alpha: 0.0013193037756794362
+      Cstray: 0.0002691987974561542
+    params_at_bound: []
+    fit_seconds: 33.8
+    improved_in_pass2: false
+  57:
+    base_file: data-d/current_2022-09-07_06-20-26.txt
+    base_time: '2022-09-07 15:58:40.892790+00:00'
+    channel: Deuteron5T
+    n_events: 108
+    first_event: '2022-09-07 15:58:50.809404+00:00'
+    last_event: '2022-09-07 17:55:14.660407+00:00'
+    labels:
+      Baseline: 5
+      Junk: 8
+      Polarize: 7
+      TE: 88
+    cc_values:
+    - -1.34
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 6.7102238424957705e-06
+    edge_bins_excluded: 3
+    max_abs_resid_V: 2.2010510926762095e-05
+    ptp_V: 0.021170366209960267
+    nrmse: 0.00031696304995133877
+    params:
+      U: 2.1163144678926997
+      Cknob: 0.41391799222063796
+      trim: 4.570176762391448
+      phi_deg: 94.35055200453122
+      DC_offset: -1.739919218411787
+      L0: 5.332654173437009
+      Rcoil: 0.15860301321952755
+      alpha: 0.11154089233658025
+      Cstray: 2.9322710983887146
+    param_errors:
+      U: 0.012508357830803132
+      Cknob: 0.005860888748733308
+      trim: 0.0004392039626492156
+      phi_deg: 0.05127902416945632
+      DC_offset: 0.01752716886363354
+      L0: 0.00011057166238141013
+      Rcoil: 0.00015991367537397945
+      alpha: 0.0007933424677845726
+      Cstray: 6.700385295365951e-05
+    params_at_bound: []
+    fit_seconds: 34.2
+    improved_in_pass2: false
+  58:
+    base_file: data-d/current_2022-09-07_06-20-26.txt
+    base_time: '2022-09-07 17:56:51.108513+00:00'
+    channel: Deuteron5T
+    n_events: 101
+    first_event: '2022-09-07 17:57:06.989545+00:00'
+    last_event: '2022-09-07 20:18:36.152490+00:00'
+    labels:
+      Baseline: 3
+      Junk: 3
+      Polarize: 95
+    cc_values:
+    - -1.34
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 7.695955892840224e-06
+    edge_bins_excluded: 3
+    max_abs_resid_V: 2.3057789756197877e-05
+    ptp_V: 0.02362438756901808
+    nrmse: 0.0003257631915475766
+    params:
+      U: 0.912731897418653
+      Cknob: 0.38781104289473556
+      trim: 7.247676331381842
+      phi_deg: -84.81693512364542
+      DC_offset: -1.5244244284925181
+      L0: 5.752694951200219
+      Rcoil: 0.35380233659655497
+      alpha: 0.0696761858966076
+      Cstray: 14.418466027499578
+    param_errors:
+      U: 0.00721571037411798
+      Cknob: 0.00457839383260494
+      trim: 0.002813843722662801
+      phi_deg: 0.03452449034967788
+      DC_offset: 0.03015980969454935
+      L0: 1.6368649997384655e-05
+      Rcoil: 0.00046281766149498934
+      alpha: 0.00034287426823231376
+      Cstray: 2.534766560272864e-05
+    params_at_bound: []
+    fit_seconds: 33.9
+    improved_in_pass2: false
+  59:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2022-09-07 15:58:40.892790+00:00'
+    channel: Deuteron5T
+    n_events: 3485
+    first_event: '2022-09-07 20:20:12.595342+00:00'
+    last_event: '2022-09-11 18:30:13.073389+00:00'
+    labels:
+      Polarize: 3480
+      Baseline: 5
+    cc_values:
+    - -1.41
+    - -1.34
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 1.2654410170489666e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 4.1574897647667086e-05
+    ptp_V: 0.021170366209960267
+    nrmse: 0.0005977416755566561
+    params:
+      U: 0.06379759113294138
+      Cknob: 1.2362820246401376
+      trim: 4.242534988553253
+      phi_deg: 2.229150753209631
+      DC_offset: 2.0852028173407295
+      L0: 3.985236930546802
+      Rcoil: 0.8455401285792341
+      alpha: 0.06056238181659696
+      Cstray: 8.950814437350491
+    param_errors:
+      U: 0.00035149768333805757
+      Cknob: 0.013337669163352987
+      trim: 0.003253310871297718
+      phi_deg: 0.0058215836105056555
+      DC_offset: 0.022247847773378113
+      L0: 0.0004076140721516512
+      Rcoil: 0.0017138115606828157
+      alpha: 0.0002976956005930917
+      Cstray: 9.251148704469553e-06
+    params_at_bound: []
+    fit_seconds: 33.3
+    improved_in_pass2: false
+  60:
+    base_file: data-d/current_2022-09-11_16-38-47.txt
+    base_time: '2022-09-11 18:31:49.532964+00:00'
+    channel: Deuteron5T
+    n_events: 1943
+    first_event: '2022-09-11 18:31:49.538522+00:00'
+    last_event: '2022-09-13 22:14:39.130019+00:00'
+    labels:
+      Baseline: 2
+      TE: 3
+      Polarize: 1938
+    cc_values:
+    - -1.41
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 6.596287003399671e-06
+    edge_bins_excluded: 3
+    max_abs_resid_V: 1.901144533222876e-05
+    ptp_V: 0.02060116188094563
+    nrmse: 0.00032019004760603775
+    params:
+      U: 0.07831988764178217
+      Cknob: 0.8234730621370938
+      trim: 1.3196242207074504
+      phi_deg: -12.146721539475921
+      DC_offset: 2.6949555162075685
+      L0: 1.3129725727912234
+      Rcoil: 1.2291881003152427
+      alpha: 0.05694813600875263
+      Cstray: 6.781041521424605
+    param_errors:
+      U: 0.0002831048262446836
+      Cknob: 0.008259111826309751
+      trim: 0.002028857472614249
+      phi_deg: 0.018026901127792084
+      DC_offset: 0.0340264881094472
+      L0: 0.0035966017995637343
+      Rcoil: 0.015924328206382753
+      alpha: 0.0002911313272456323
+      Cstray: 4.116087447210293e-05
+    params_at_bound: []
+    fit_seconds: 33.8
+    improved_in_pass2: false
+  61:
+    base_file: data-d/current_2022-09-20_14-47-16.txt
+    base_time: '2022-09-20 15:06:38.884952+00:00'
+    channel: Deuteron5T
+    n_events: 335
+    first_event: '2022-09-20 15:06:38.885265+00:00'
+    last_event: '2022-09-20 19:05:36.230439+00:00'
+    labels:
+      Baseline: 1
+      Junk: 41
+      TE: 293
+    cc_values:
+    - -1.41
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 8.214039829886288e-06
+    edge_bins_excluded: 3
+    max_abs_resid_V: 3.0344701611451086e-05
+    ptp_V: 0.019864891836649967
+    nrmse: 0.0004134953211641303
+    params:
+      U: 2.0650158134855605
+      Cknob: 0.4364427339850216
+      trim: 4.230350008577091
+      phi_deg: 94.72584747633867
+      DC_offset: -2.162064996106262
+      L0: 14.17654436236698
+      Rcoil: 0.5834750330202358
+      alpha: 0.1294489545322009
+      Cstray: 10.188206087792143
+    param_errors:
+      U: 0.015974713686423992
+      Cknob: 0.008168981488267401
+      trim: 0.0006752813216679199
+      phi_deg: 0.07126171285956796
+      DC_offset: 0.02504971715878215
+      L0: 0.0010627872201992008
+      Rcoil: 2.445613584883751e-05
+      alpha: 0.0012324046252067736
+      Cstray: 0.00040378162779384477
+    params_at_bound: []
+    fit_seconds: 33.7
+    improved_in_pass2: false
+  62:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2022-09-20 15:06:38.884952+00:00'
+    channel: Deuteron5T
+    n_events: 29
+    first_event: '2022-09-20 19:39:04.223767+00:00'
+    last_event: '2022-09-20 20:18:41.137900+00:00'
+    labels:
+      TE: 24
+      Baseline: 5
+    cc_values:
+    - -1.41
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 1.0107194380744526e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 3.7761158834248576e-05
+    ptp_V: 0.019864891836649967
+    nrmse: 0.0005087968494294612
+    params:
+      U: 2.216916047315837
+      Cknob: 0.3775054605398139
+      trim: 4.062904590382059
+      phi_deg: 93.78624223184667
+      DC_offset: -1.071481050795512
+      L0: 18.966347768788715
+      Rcoil: 3.0056552989229193
+      alpha: 0.11791555204724292
+      Cstray: 14.628371710138783
+    param_errors:
+      U: 0.019519207627576668
+      Cknob: 0.0077462854632701
+      trim: 0.0005409188874760614
+      phi_deg: 0.06766449467842918
+      DC_offset: 0.02199912892199441
+      L0: 0.0012036155370021195
+      Rcoil: 0.0001266526565839784
+      alpha: 0.0013300557463061782
+      Cstray: 0.00044391095756559387
+    params_at_bound: []
+    fit_seconds: 34.1
+    improved_in_pass2: false
+  63:
+    base_file: data-d/current_2022-09-20_19-55-15.txt
+    base_time: '2022-09-20 20:20:17.582030+00:00'
+    channel: Deuteron5T
+    n_events: 2633
+    first_event: '2022-09-20 20:20:17.586424+00:00'
+    last_event: '2022-09-23 18:10:58.856677+00:00'
+    labels:
+      Baseline: 4
+      Polarize: 2629
+    cc_values:
+    - -1.57
+    - -1.41
+    - -1.39
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 6.44154908814427e-06
+    edge_bins_excluded: 3
+    max_abs_resid_V: 1.947331185259138e-05
+    ptp_V: 0.020773994311595878
+    nrmse: 0.00031007754173441017
+    params:
+      U: 0.2430888639525202
+      Cknob: 0.9474245502642291
+      trim: 3.9748239446142883
+      phi_deg: -31.523855923866197
+      DC_offset: 11.19106016553853
+      L0: 9.628497867547393
+      Rcoil: 0.715395071365694
+      alpha: 0.10166480970219988
+      Cstray: 8.919927520404661
+    param_errors:
+      U: 0.0011592205844857203
+      Cknob: 0.013028440239994318
+      trim: 0.004589337656673622
+      phi_deg: 0.038557533780809145
+      DC_offset: 0.12264834000272534
+      L0: 0.0037655539976617354
+      Rcoil: 0.01471642760872557
+      alpha: 0.0005673591589270887
+      Cstray: 0.00046013146878630395
+    params_at_bound: []
+    fit_seconds: 33.6
+    improved_in_pass2: false
+  64:
+    base_file: data-d/current_2022-10-19_14-14-58.txt
+    base_time: '2022-10-19 18:17:34.427066+00:00'
+    channel: Deuteron5T
+    n_events: 3034
+    first_event: '2022-10-19 18:17:34.433309+00:00'
+    last_event: '2022-10-23 02:52:52.429112+00:00'
+    labels:
+      Baseline: 2
+      Junk: 5
+      Polarize: 3027
+    cc_values:
+    - -1.42
+    - -1.39
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 1.349473992532741e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 3.824071910463189e-05
+    ptp_V: 0.022838786634844066
+    nrmse: 0.000590869389914923
+    params:
+      U: 0.23998954678643095
+      Cknob: 1.2699521682317478
+      trim: 7.052856220879792
+      phi_deg: -47.876382688820186
+      DC_offset: 6.231095705139842
+      L0: 4.9328616305158475
+      Rcoil: 0.5033546779682131
+      alpha: 0.08716958754493884
+      Cstray: 17.710082999643323
+    param_errors:
+      U: 0.0017232828411735041
+      Cknob: 0.03620432373033607
+      trim: 0.014648117770045552
+      phi_deg: 0.0035574879053211824
+      DC_offset: 0.1741886571574784
+      L0: 0.001128648015126846
+      Rcoil: 0.007229202808775959
+      alpha: 0.0007917761245709786
+      Cstray: 0.00011783488002817243
+    params_at_bound: []
+    fit_seconds: 34.2
+    improved_in_pass2: false
+  65:
+    base_file: data-d/current_2022-10-23_02-55-36.txt
+    base_time: '2022-10-23 03:04:10.234425+00:00'
+    channel: Deuteron5T
+    n_events: 4094
+    first_event: '2022-10-23 03:04:10.240104+00:00'
+    last_event: '2022-10-27 16:29:07.034009+00:00'
+    labels:
+      Baseline: 38
+      Polarize: 3583
+      Junk: 473
+    cc_values:
+    - -1.42
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 1.6024089690431796e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 4.470862757033345e-05
+    ptp_V: 0.020187349194468407
+    nrmse: 0.0007937688864480832
+    params:
+      U: 2.8237465485637787
+      Cknob: 54.17205204317403
+      trim: 8.102482692198418
+      phi_deg: -82.67778712363098
+      DC_offset: -1.8660723765436296
+      L0: 8.063456066251407
+      Rcoil: 0.1611427114857208
+      alpha: 0.2695835637642928
+      Cstray: 18.68924580916405
+    param_errors:
+      U: 0.012457316431205432
+      Cknob: 0.00012914872141321757
+      trim: 0.0009596285565929594
+      phi_deg: 0.0004188565281588412
+      DC_offset: 0.00033815510382745675
+      L0: 7.323591142639425e-05
+      Rcoil: 0.00019051638923665
+      alpha: 0.00018770331101969625
+      Cstray: 3.186933559585677e-05
+    params_at_bound: []
+    fit_seconds: 34.2
+    improved_in_pass2: false
+  66:
+    base_file: data-d/current_2023-02-01_15-22-12.txt
+    base_time: '2023-02-01 15:41:46.594466+00:00'
+    channel: Deuteron5T
+    n_events: 8
+    first_event: '2023-02-01 15:41:46.602119+00:00'
+    last_event: '2023-02-01 15:53:01.795858+00:00'
+    labels:
+      Baseline: 8
+    cc_values:
+    - -1.42
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 5.87718295585251e-06
+    edge_bins_excluded: 3
+    max_abs_resid_V: 1.6787986832689228e-05
+    ptp_V: 0.020193023126018117
+    nrmse: 0.0002910501770425812
+    params:
+      U: 0.1250834503284041
+      Cknob: 0.6222448927183512
+      trim: 1.2018420900082964
+      phi_deg: -17.618473208597138
+      DC_offset: 6.056659032220799
+      L0: 5.16806100875584
+      Rcoil: 0.9086348202006287
+      alpha: 0.08667887234377777
+      Cstray: 2.084943860242528
+    param_errors:
+      U: 0.0002728768755314447
+      Cknob: 0.005096407572564446
+      trim: 0.001579357301298135
+      phi_deg: 0.028577803857196007
+      DC_offset: 0.03369472218485295
+      L0: 0.009153280091082542
+      Rcoil: 0.02968311689888042
+      alpha: 0.0008063419142965108
+      Cstray: 0.00035155793656583835
+    params_at_bound: []
+    fit_seconds: 32.4
+    improved_in_pass2: false
+  67:
+    base_file: data-d/current_2023-02-01_15-22-12.txt
+    base_time: '2023-02-01 15:54:38.238272+00:00'
+    channel: Deuteron5T
+    n_events: 3
+    first_event: '2023-02-01 15:54:38.238492+00:00'
+    last_event: '2023-02-01 15:57:51.127309+00:00'
+    labels:
+      Baseline: 3
+    cc_values:
+    - -1.42
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 1.653780604802269e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 6.0268040441346926e-05
+    ptp_V: 0.0203914240137979
+    nrmse: 0.0008110177119965899
+    params:
+      U: 1.8040498987343263
+      Cknob: 20.51428938770303
+      trim: 8.088152533211336
+      phi_deg: -115.73766105200588
+      DC_offset: -49.99999997378373
+      L0: 2.1265900169432093
+      Rcoil: 9.401042324747449
+      alpha: 0.20959353193758232
+      Cstray: 6.085851835193052
+    param_errors:
+      U: 0.0057194034848330215
+      Cknob: 0.05643741999651712
+      trim: 0.0004664100243718092
+      phi_deg: 0.08584453916285056
+      DC_offset: 0.06846354568533221
+      L0: 0.012545161198890847
+      Rcoil: 0.015142925462695944
+      alpha: 0.00014775630659062005
+      Cstray: 0.0007864856218210835
+    params_at_bound:
+    - DC_offset
+    fit_seconds: 33.3
+    improved_in_pass2: false
+  68:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2023-02-01 15:54:38.238272+00:00'
+    channel: Deuteron5T
+    n_events: 4985
+    first_event: '2023-02-01 16:01:12.370507+00:00'
+    last_event: '2023-02-07 01:34:01.177999+00:00'
+    labels:
+      Baseline: 9
+      Junk: 14
+      Polarize: 4962
+    cc_values:
+    - -5.88
+    - -3.86
+    - -3.53
+    - -3.37
+    - -1.42
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 1.5176411353069087e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 5.4022779812701316e-05
+    ptp_V: 0.0203914240137979
+    nrmse: 0.0007442546112914889
+    params:
+      U: 2.898883591810859
+      Cknob: 2.2356928972355448
+      trim: 7.477697514537376
+      phi_deg: 95.02587164017679
+      DC_offset: 32.908862036199636
+      L0: 4.009630413365421
+      Rcoil: 0.1622625792064617
+      alpha: 0.23345853833531532
+      Cstray: 11.211422763053333
+    param_errors:
+      U: 0.00523943215364053
+      Cknob: 0.002482929031841768
+      trim: 0.007425849756695133
+      phi_deg: 0.020785148915430623
+      DC_offset: 0.004054525591208321
+      L0: 0.11769835461596943
+      Rcoil: 0.8043980089556195
+      alpha: 0.0016692804317448068
+      Cstray: 0.040893024525638005
+    params_at_bound: []
+    fit_seconds: 34.4
+    improved_in_pass2: false
+  69:
+    base_file: data-d/current_2023-02-05_09-22-47.txt
+    base_time: '2023-02-07 01:35:37.626331+00:00'
+    channel: Deuteron5T
+    n_events: 2864
+    first_event: '2023-02-07 01:35:37.626586+00:00'
+    last_event: '2023-02-10 03:40:20.542751+00:00'
+    labels:
+      Baseline: 21
+      Polarize: 2843
+    cc_values:
+    - -3.65
+    - -3.37
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 1.2955467907155564e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 3.4329575101299525e-05
+    ptp_V: 0.02012577583899855
+    nrmse: 0.0006437251418676351
+    params:
+      U: 9.194814715239172
+      Cknob: 3.8525895429538877
+      trim: 7.505155507967593
+      phi_deg: 111.61199833694815
+      DC_offset: -49.98652854095182
+      L0: 1.5013469937736308
+      Rcoil: 0.1487209059764773
+      alpha: 0.31176630271845135
+      Cstray: 0.8973004735259634
+    param_errors:
+      U: 0.003581369655478296
+      Cknob: 0.005740212734020415
+      trim: 0.014476104971979332
+      phi_deg: 0.004297685882678468
+      DC_offset: 0.0006039700372681996
+      L0: 0.3921630923103119
+      Rcoil: 0.25790403659028754
+      alpha: 0.0015539028201895274
+      Cstray: 0.25836095325073377
+    params_at_bound:
+    - DC_offset
+    fit_seconds: 33.6
+    improved_in_pass2: false
+  70:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2023-02-07 01:35:37.626331+00:00'
+    channel: Deuteron5T
+    n_events: 6
+    first_event: '2023-02-10 19:14:48.775048+00:00'
+    last_event: '2023-02-10 19:22:50.992073+00:00'
+    labels:
+      Baseline: 6
+    cc_values:
+    - -3.65
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 1.941967628676191e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 6.55095871056055e-05
+    ptp_V: 0.02012577583899855
+    nrmse: 0.0009649156604999842
+    params:
+      U: 0.18811367032960746
+      Cknob: 2.4467810830094336
+      trim: 3.814897185697757
+      phi_deg: -33.83378542957068
+      DC_offset: 3.918094403546787
+      L0: 2.8105115379830665
+      Rcoil: 0.4847451461393398
+      alpha: 0.09215205612504652
+      Cstray: 8.936250610196758
+    param_errors:
+      U: 0.001032129155814786
+      Cknob: 0.016851340675148048
+      trim: 0.004253239647840437
+      phi_deg: 6.136497261350147e-05
+      DC_offset: 0.007712311161104188
+      L0: 0.0002523872041692867
+      Rcoil: 0.0001968914238206646
+      alpha: 0.0001384186441796183
+      Cstray: 3.767297239133884e-06
+    params_at_bound: []
+    fit_seconds: 33.0
+    improved_in_pass2: false
+  71:
+    base_file: data-d/current_2023-02-10_16-01-45.txt
+    base_time: '2023-02-10 19:24:27.435131+00:00'
+    channel: Deuteron5T
+    n_events: 439
+    first_event: '2023-02-10 19:24:27.438791+00:00'
+    last_event: '2023-02-11 03:39:34.485588+00:00'
+    labels:
+      Baseline: 13
+      Polarize: 426
+    cc_values:
+    - -3.65
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 1.9564229691288092e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 5.760173013946712e-05
+    ptp_V: 0.02001189006570625
+    nrmse: 0.0009776302801510338
+    params:
+      U: 0.08315988335815555
+      Cknob: 6.721533414199219
+      trim: 3.662986806179988
+      phi_deg: -3.1867929210208854
+      DC_offset: -0.7467005640937752
+      L0: 1.686011356291176
+      Rcoil: 0.07479211846809053
+      alpha: 0.00515089187033568
+      Cstray: 3.4897565675665714
+    param_errors:
+      U: 0.0006584496865551682
+      Cknob: 0.008368626251037299
+      trim: 0.0013486217581339759
+      phi_deg: 0.0004249751808074252
+      DC_offset: 0.01900703773489146
+      L0: 5.441696496102582e-05
+      Rcoil: 8.992971811547668e-05
+      alpha: 0.0003484859460933334
+      Cstray: 2.8476630161693074e-06
+    params_at_bound: []
+    fit_seconds: 31.5
+    improved_in_pass2: false
+  72:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2023-02-10 19:24:27.435131+00:00'
+    channel: Deuteron5T
+    n_events: 2263
+    first_event: '2023-02-11 03:42:02.658960+00:00'
+    last_event: '2023-02-13 15:30:19.876563+00:00'
+    labels:
+      Polarize: 2263
+    cc_values:
+    - -3.65
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 2.2578722825783254e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 8.129559541503184e-05
+    ptp_V: 0.02001189006570625
+    nrmse: 0.001128265383811782
+    params:
+      U: 0.12174385878986606
+      Cknob: 4.660802200275647
+      trim: 3.3119245191961664
+      phi_deg: -13.33729832236883
+      DC_offset: 1.1586389684962628
+      L0: 11.625287754422
+      Rcoil: 0.8176548575434104
+      alpha: 0.052971306618220526
+      Cstray: 4.402283361286583
+    param_errors:
+      U: 0.0010237713488483234
+      Cknob: 0.02171279578865496
+      trim: 0.002890673195963565
+      phi_deg: 0.0006937892427654079
+      DC_offset: 0.02417083280229634
+      L0: 0.0003699880256859464
+      Rcoil: 0.0003134560806844594
+      alpha: 0.00020469923447139813
+      Cstray: 0.0001248509203697928
+    params_at_bound: []
+    fit_seconds: 33.2
+    improved_in_pass2: false
+  73:
+    base_file: data-d/current_2023-02-24_14-26-33.txt
+    base_time: '2023-02-24 16:37:26.567687+00:00'
+    channel: Deuteron5T
+    n_events: 415
+    first_event: '2023-02-24 16:39:03.014533+00:00'
+    last_event: '2023-02-25 00:46:24.345110+00:00'
+    labels:
+      Baseline: 5
+      Polarize: 410
+    cc_values:
+    - -3.65
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 1.730856915100648e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 8.39235709462205e-05
+    ptp_V: 0.02120361713098573
+    nrmse: 0.0008163026640257877
+    params:
+      U: 6.86922628912682
+      Cknob: 0.1800931395862365
+      trim: 1.549500002782973
+      phi_deg: 86.54441007739408
+      DC_offset: 49.999999954773635
+      L0: 1.136286394654691
+      Rcoil: 0.07251648004630068
+      alpha: 0.13157585928941695
+      Cstray: 6.427635843255737
+    param_errors:
+      U: 0.09292628540218786
+      Cknob: 0.008839768300419961
+      trim: 0.0004966996807596698
+      phi_deg: 0.020565750834977647
+      DC_offset: 0.0020054406274067696
+      L0: 0.0026157815127781973
+      Rcoil: 0.006464896545253737
+      alpha: 0.0034215116183756817
+      Cstray: 5.557994016966579e-06
+    params_at_bound:
+    - DC_offset
+    fit_seconds: 33.7
+    improved_in_pass2: false
+  74:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2023-02-24 16:37:26.567687+00:00'
+    channel: Deuteron5T
+    n_events: 2443
+    first_event: '2023-02-25 00:51:33.436435+00:00'
+    last_event: '2023-02-27 17:20:22.401575+00:00'
+    labels:
+      Polarize: 2433
+      Junk: 4
+      Baseline: 6
+    cc_values:
+    - -3.65
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 1.7900593081462025e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 7.514058177648941e-05
+    ptp_V: 0.02120361713098573
+    nrmse: 0.0008442235572770809
+    params:
+      U: 1.780579783156061
+      Cknob: 0.8789980052878753
+      trim: 4.267289943406099
+      phi_deg: 118.87105065071556
+      DC_offset: -49.59630403224678
+      L0: 13.536325086539037
+      Rcoil: 0.06284054596601525
+      alpha: 0.18005787016180927
+      Cstray: 14.037210869502335
+    param_errors:
+      U: 0.002341664106653857
+      Cknob: 0.0028507364621566124
+      trim: 0.0007204014141302058
+      phi_deg: 7.579077315400327e-05
+      DC_offset: 2.2980267384221284e-05
+      L0: 4.2818648334099354e-05
+      Rcoil: 1.0170002562393917e-05
+      alpha: 0.0003882329350929532
+      Cstray: 6.471184094718756e-06
+    params_at_bound: []
+    fit_seconds: 33.4
+    improved_in_pass2: false
+  75:
+    base_file: data-d/current_2023-02-27_05-48-34.txt
+    base_time: '2023-02-27 17:21:58.848976+00:00'
+    channel: Deuteron5T
+    n_events: 311
+    first_event: '2023-02-27 17:21:58.849218+00:00'
+    last_event: '2023-03-01 00:18:01.284205+00:00'
+    labels:
+      Baseline: 6
+      TE: 305
+    cc_values:
+    - -3.65
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 1.1866996397789121e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 4.442619549172022e-05
+    ptp_V: 0.02092678700953754
+    nrmse: 0.0005670720685588594
+    params:
+      U: 2.081373707178617
+      Cknob: 1.2862210499749485
+      trim: 4.27749992694429
+      phi_deg: 95.08335732303709
+      DC_offset: 14.354855735066371
+      L0: 8.823924026182674
+      Rcoil: 1.4320075053803323
+      alpha: 0.22443203766682743
+      Cstray: 9.942665114815588
+    param_errors:
+      U: 0.09596799930399785
+      Cknob: 0.08900197959325189
+      trim: 0.015645031834277474
+      phi_deg: 0.6364036806791447
+      DC_offset: 0.24126490853146657
+      L0: 0.00881972347109127
+      Rcoil: 0.007285596252449258
+      alpha: 0.010914642280782445
+      Cstray: 0.0013333048179271572
+    params_at_bound: []
+    fit_seconds: 32.2
+    improved_in_pass2: false
+  76:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2023-02-27 17:21:58.848976+00:00'
+    channel: Deuteron5T
+    n_events: 111
+    first_event: '2023-03-01 14:31:18.006960+00:00'
+    last_event: '2023-03-01 16:13:34.750165+00:00'
+    labels:
+      Polarize: 98
+      Baseline: 13
+    cc_values:
+    - -3.65
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 6.103672715271011e-06
+    edge_bins_excluded: 3
+    max_abs_resid_V: 2.0184332443218267e-05
+    ptp_V: 0.02092678700953754
+    nrmse: 0.00029166793318483226
+    params:
+      U: 1.64227173390518
+      Cknob: 0.32278930137562195
+      trim: 7.377473406305779
+      phi_deg: -107.52999756520576
+      DC_offset: -49.999999992846725
+      L0: 1.330064595915886
+      Rcoil: 0.24117822937772185
+      alpha: 0.06811320988463367
+      Cstray: 19.560789864531724
+    param_errors:
+      U: 0.005755926001416044
+      Cknob: 0.0028045651131780396
+      trim: 0.002710647514090058
+      phi_deg: 0.04328419986738813
+      DC_offset: 0.011645842761071097
+      L0: 0.00015988577407232207
+      Rcoil: 0.0013529518235717802
+      alpha: 0.00029746830577103843
+      Cstray: 2.8869394036371028e-06
+    params_at_bound:
+    - DC_offset
+    fit_seconds: 32.2
+    improved_in_pass2: false
+  77:
+    base_file: data-d/current_2023-03-01_14-30-16.txt
+    base_time: '2023-03-01 16:15:11.193840+00:00'
+    channel: Deuteron5T
+    n_events: 223
+    first_event: '2023-03-01 16:17:30.479012+00:00'
+    last_event: '2023-03-01 21:15:51.973600+00:00'
+    labels:
+      Junk: 11
+      Polarize: 212
+    cc_values:
+    - -3.65
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 9.006589292401758e-06
+    edge_bins_excluded: 3
+    max_abs_resid_V: 2.5449117023734757e-05
+    ptp_V: 0.02173277806206131
+    nrmse: 0.000414424205993456
+    params:
+      U: 0.05684641847557314
+      Cknob: 2.261875917093321
+      trim: 3.936576170418795
+      phi_deg: 6.68596750250218
+      DC_offset: 0.8104591705971216
+      L0: 6.8110108684747095
+      Rcoil: 1.1731459160159883
+      alpha: 0.06068801741307804
+      Cstray: 4.538628197598427
+    param_errors:
+      U: 0.00047816670751589936
+      Cknob: 0.03130559957979828
+      trim: 0.00573160169463182
+      phi_deg: 0.0027606147319193166
+      DC_offset: 0.013361311666823236
+      L0: 0.00014995636012741907
+      Rcoil: 0.0005522932585141057
+      alpha: 0.0001619696178934175
+      Cstray: 1.8706431850180433e-05
+    params_at_bound: []
+    fit_seconds: 32.8
+    improved_in_pass2: false
+  78:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2023-03-01 16:15:11.193840+00:00'
+    channel: Deuteron5T
+    n_events: 1959
+    first_event: '2023-03-01 21:20:10.651938+00:00'
+    last_event: '2023-03-03 19:57:12.398222+00:00'
+    labels:
+      Polarize: 1951
+      Baseline: 8
+    cc_values:
+    - -3.93
+    - -3.65
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 6.1561972291263905e-06
+    edge_bins_excluded: 3
+    max_abs_resid_V: 1.7590232259223626e-05
+    ptp_V: 0.02173277806206131
+    nrmse: 0.0002832678459949491
+    params:
+      U: 2.0843938359323464
+      Cknob: 0.46680704213611035
+      trim: 4.547621684575099
+      phi_deg: 94.95565944456335
+      DC_offset: -1.9420487273963714
+      L0: 5.650095215915346
+      Rcoil: 0.13649495949729826
+      alpha: 0.12067583579612276
+      Cstray: 15.989292473853737
+    param_errors:
+      U: 0.012300394303790206
+      Cknob: 0.006779664564463608
+      trim: 0.0006001338240166147
+      phi_deg: 0.05817316472446892
+      DC_offset: 0.02035452136230039
+      L0: 0.00019123189545855994
+      Rcoil: 4.260498028799647e-05
+      alpha: 0.0008761575233945748
+      Cstray: 7.677542499790312e-05
+    params_at_bound: []
+    fit_seconds: 34.1
+    improved_in_pass2: false
+  79:
+    base_file: data-d/current_2023-03-03_07-29-56.txt
+    base_time: '2023-03-03 19:58:48.837748+00:00'
+    channel: Deuteron5T
+    n_events: 99
+    first_event: '2023-03-03 19:58:48.837974+00:00'
+    last_event: '2023-03-03 22:17:20.057916+00:00'
+    labels:
+      Baseline: 1
+      Junk: 4
+      Polarize: 94
+    cc_values:
+    - -3.93
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 1.2833589918561285e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 4.338034245776612e-05
+    ptp_V: 0.021246282934007876
+    nrmse: 0.0006040393022357426
+    params:
+      U: 0.02271960485364667
+      Cknob: 8.130814657584674
+      trim: 6.54512204697497
+      phi_deg: 45.60959254325935
+      DC_offset: -1.835271368542639
+      L0: 14.348468218402962
+      Rcoil: 0.3757512321609807
+      alpha: 0.012228576549634438
+      Cstray: 3.679044924462219
+    param_errors:
+      U: 0.0003390960144090525
+      Cknob: 0.2510410076122108
+      trim: 0.007779842112496243
+      phi_deg: 0.060103844944123686
+      DC_offset: 0.00942754154367098
+      L0: 0.0003224299499164484
+      Rcoil: 0.0015070005210135835
+      alpha: 0.0007351820750243379
+      Cstray: 0.00020921624270520137
+    params_at_bound: []
+    fit_seconds: 33.2
+    improved_in_pass2: false
+  80:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2023-03-03 19:58:48.837748+00:00'
+    channel: Deuteron5T
+    n_events: 2445
+    first_event: '2023-03-03 22:20:13.947927+00:00'
+    last_event: '2023-03-09 20:50:55.466849+00:00'
+    labels:
+      Polarize: 2443
+      Junk: 2
+    cc_values:
+    - -3.93
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 8.42675887006125e-06
+    edge_bins_excluded: 3
+    max_abs_resid_V: 2.678899183417016e-05
+    ptp_V: 0.021246282934007876
+    nrmse: 0.00039662273613860955
+    params:
+      U: 2.842279988186706
+      Cknob: 0.31218509847614706
+      trim: 4.131256618144198
+      phi_deg: 105.5955647170926
+      DC_offset: -49.977544390907916
+      L0: 18.65812519486114
+      Rcoil: 0.2515164983277739
+      alpha: 0.11639628770159335
+      Cstray: 7.592687528095617
+    param_errors:
+      U: 0.01808426013527668
+      Cknob: 0.004664252594560306
+      trim: 0.00013023609785152416
+      phi_deg: 0.12246757368917499
+      DC_offset: 0.0270266646545431
+      L0: 0.010267163363220169
+      Rcoil: 0.0019287413663199935
+      alpha: 0.0008523384603078005
+      Cstray: 0.0029328074799144553
+    params_at_bound:
+    - DC_offset
+    fit_seconds: 33.6
+    improved_in_pass2: false
+  81:
+    base_file: data-d/current_2023-03-15_13-37-59.txt
+    base_time: '2023-03-15 13:54:11.091252+00:00'
+    channel: Deuteron5T
+    n_events: 5
+    first_event: '2023-03-15 13:54:26.156581+00:00'
+    last_event: '2023-03-15 13:58:57.565697+00:00'
+    labels:
+      Baseline: 5
+    cc_values:
+    - -3.93
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 1.0380640494374376e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 2.8538403910705057e-05
+    ptp_V: 0.020129612384893303
+    nrmse: 0.0005156900339603533
+    params:
+      U: 0.18843930540635273
+      Cknob: 0.7804656206262685
+      trim: 3.8632800248648898
+      phi_deg: -22.279362423579837
+      DC_offset: 9.993488650765153
+      L0: 14.292607026785586
+      Rcoil: 0.05724086897711789
+      alpha: 0.09424833677508604
+      Cstray: 19.848399227892987
+    param_errors:
+      U: 0.001007642997331351
+      Cknob: 0.010761321455323547
+      trim: 0.003423520739663727
+      phi_deg: 0.04971525942998816
+      DC_offset: 0.10252381643045036
+      L0: 0.0013601057770571065
+      Rcoil: 0.014768789643737559
+      alpha: 0.0005818290990166955
+      Cstray: 0.001193020145548551
+    params_at_bound: []
+    fit_seconds: 33.2
+    improved_in_pass2: false
+  82:
+    base_file: data-d/current_2023-03-15_13-37-59.txt
+    base_time: '2023-03-15 14:00:34.008936+00:00'
+    channel: Deuteron5T
+    n_events: 5
+    first_event: '2023-03-15 14:00:34.009185+00:00'
+    last_event: '2023-03-15 14:07:15.011464+00:00'
+    labels:
+      Baseline: 5
+    cc_values:
+    - -3.93
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 7.345630993095969e-06
+    edge_bins_excluded: 3
+    max_abs_resid_V: 1.883307599204187e-05
+    ptp_V: 0.020288722877853438
+    nrmse: 0.0003620548734052768
+    params:
+      U: 1.085866223260302
+      Cknob: 0.6680321567081721
+      trim: 7.520533157655169
+      phi_deg: 105.92604215808497
+      DC_offset: -15.235338370162804
+      L0: 11.747798351220272
+      Rcoil: 0.09793788645173773
+      alpha: 0.10385842972720875
+      Cstray: 5.412481592279279
+    param_errors:
+      U: 0.008901073127730034
+      Cknob: 0.00996423737681862
+      trim: 0.0010245495029544533
+      phi_deg: 0.11797062466991655
+      DC_offset: 0.07729669792177869
+      L0: 0.0042309715273916556
+      Rcoil: 0.0018956237932857406
+      alpha: 0.0006794848776178672
+      Cstray: 0.0013229283096614025
+    params_at_bound: []
+    fit_seconds: 32.2
+    improved_in_pass2: false
+  83:
+    base_file: data-d/current_2023-03-15_14-09-28.txt
+    base_time: '2023-03-15 14:12:12.477600+00:00'
+    channel: Deuteron5T
+    n_events: 5
+    first_event: '2023-03-15 14:12:12.483823+00:00'
+    last_event: '2023-03-15 14:18:38.305699+00:00'
+    labels:
+      Baseline: 5
+    cc_values:
+    - -3.93
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 2.0220434775779513e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 7.16239164071375e-05
+    ptp_V: 0.020348627243196304
+    nrmse: 0.0009937001908834095
+    params:
+      U: 0.06974968903754289
+      Cknob: 4.5281271322831795
+      trim: 3.747354423064893
+      phi_deg: 6.385446557634678
+      DC_offset: -0.017297926730902417
+      L0: 4.151625670190126
+      Rcoil: 2.104925589757627
+      alpha: 0.028825115703856135
+      Cstray: 19.146778050875998
+    param_errors:
+      U: 0.0010501607505347826
+      Cknob: 0.4974798541914371
+      trim: 0.041157522819333
+      phi_deg: 0.08655736765591023
+      DC_offset: 0.21814478342113547
+      L0: 0.0017251820307601629
+      Rcoil: 0.020162446374628624
+      alpha: 0.00749533336029094
+      Cstray: 0.0003491490844562409
+    params_at_bound: []
+    fit_seconds: 34.5
+    improved_in_pass2: false
+  84:
+    base_file: data-d/current_2023-03-15_14-09-28.txt
+    base_time: '2023-03-15 14:20:14.750940+00:00'
+    channel: Deuteron5T
+    n_events: 47
+    first_event: '2023-03-15 14:20:14.751257+00:00'
+    last_event: '2023-03-15 14:44:21.469334+00:00'
+    labels:
+      Baseline: 42
+      Polarize: 5
+    cc_values:
+    - -3.93
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 7.276821789844693e-06
+    edge_bins_excluded: 3
+    max_abs_resid_V: 2.039303994494368e-05
+    ptp_V: 0.020386333329372563
+    nrmse: 0.0003569460810964114
+    params:
+      U: 2.3504461739999942
+      Cknob: 0.3589035207500155
+      trim: 4.756969004718352
+      phi_deg: 93.95959576884236
+      DC_offset: -2.166171653323832
+      L0: 0.7703838554215707
+      Rcoil: 0.06814990072106672
+      alpha: 0.0975592363024295
+      Cstray: 2.936162739335678
+    param_errors:
+      U: 0.013505810616038576
+      Cknob: 0.004860820324826424
+      trim: 0.00030977019530371554
+      phi_deg: 0.045454374331574836
+      DC_offset: 0.013886293129724373
+      L0: 3.8951733757561676e-05
+      Rcoil: 0.00014756111006144468
+      alpha: 0.0006629446569921191
+      Cstray: 1.0644287322593736e-05
+    params_at_bound: []
+    fit_seconds: 34.2
+    improved_in_pass2: false
+  85:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2023-03-15 14:20:14.750940+00:00'
+    channel: Deuteron5T
+    n_events: 1839
+    first_event: '2023-03-15 14:46:50.880133+00:00'
+    last_event: '2023-03-17 14:45:58.611820+00:00'
+    labels:
+      Polarize: 1827
+      Junk: 12
+    cc_values:
+    - -3.93
+    - -3.67
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 8.496138145632501e-06
+    edge_bins_excluded: 3
+    max_abs_resid_V: 2.2793283876332282e-05
+    ptp_V: 0.020386333329372563
+    nrmse: 0.00041675655981702667
+    params:
+      U: 8.430391290131466
+      Cknob: 0.10385091912668527
+      trim: 1.5393465429799036
+      phi_deg: 86.77238543313491
+      DC_offset: 49.909903152712644
+      L0: 1.4121682277010446
+      Rcoil: 0.11618080353186691
+      alpha: 0.09954576765505965
+      Cstray: 13.89280700083488
+    param_errors:
+      U: 0.03760817782902752
+      Cknob: 0.0014733196963430725
+      trim: 5.748884281236453e-05
+      phi_deg: 0.005374218274650717
+      DC_offset: 0.000659472076540839
+      L0: 0.001624141067865023
+      Rcoil: 0.003745040890990137
+      alpha: 0.0007156692954615239
+      Cstray: 2.174072471166105e-05
+    params_at_bound:
+    - DC_offset
+    fit_seconds: 32.6
+    improved_in_pass2: false
+  86:
+    base_file: data-d/current_2023-03-17_14-50-00.txt
+    base_time: '2023-03-17 16:10:03.865443+00:00'
+    channel: Deuteron5T
+    n_events: 1726
+    first_event: '2023-03-17 16:11:40.317650+00:00'
+    last_event: '2023-03-19 13:35:32.090734+00:00'
+    labels:
+      Baseline: 2
+      Polarize: 1724
+    cc_values:
+    - -3.67
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 2.293759471114549e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 6.717519281229656e-05
+    ptp_V: 0.020144859133490955
+    nrmse: 0.001138632668471312
+    params:
+      U: 0.08685791341783641
+      Cknob: 7.724657521307949
+      trim: 6.247427541109071
+      phi_deg: -33.1773208466616
+      DC_offset: -0.8360374720060535
+      L0: 4.906314062867505
+      Rcoil: 0.14204091984905332
+      alpha: 0.02480300354913393
+      Cstray: 17.15277321973841
+    param_errors:
+      U: 0.0004298939265231137
+      Cknob: 0.0048440347440130505
+      trim: 0.0013430451828044436
+      phi_deg: 0.0006925033469722304
+      DC_offset: 0.01320968132010201
+      L0: 5.0050391989317846e-05
+      Rcoil: 0.00014468507949821232
+      alpha: 0.00035931270003161935
+      Cstray: 3.909273602549465e-06
+    params_at_bound: []
+    fit_seconds: 32.7
+    improved_in_pass2: false
+  87:
+    base_file: data-d/current_2023-03-20_20-41-54.txt
+    base_time: '2023-03-20 20:58:43.640562+00:00'
+    channel: Deuteron5T
+    n_events: 4
+    first_event: '2023-03-20 20:58:56.666401+00:00'
+    last_event: '2023-03-20 21:03:46.002476+00:00'
+    labels:
+      Baseline: 4
+    cc_values:
+    - -3.67
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 1.392794978600194e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 3.638660300753216e-05
+    ptp_V: 0.020247036822371944
+    nrmse: 0.0006879006497687733
+    params:
+      U: 0.024534619847729987
+      Cknob: 7.080277093473449
+      trim: 6.387612991423082
+      phi_deg: 41.22232711350307
+      DC_offset: -1.6498004514393905
+      L0: 18.048866624371254
+      Rcoil: 0.0301467650724928
+      alpha: 0.02025248584259203
+      Cstray: 17.255696857827324
+    param_errors:
+      U: 0.00036960626733493275
+      Cknob: 0.2151350119252315
+      trim: 0.00856132140430784
+      phi_deg: 0.043818147676145884
+      DC_offset: 0.009492186946625712
+      L0: 0.00026229754012866726
+      Rcoil: 0.00013512690240599038
+      alpha: 0.0007331976205645601
+      Cstray: 0.00026330657422988976
+    params_at_bound: []
+    fit_seconds: 33.6
+    improved_in_pass2: false
+  88:
+    base_file: data-d/current_2023-03-20_20-41-54.txt
+    base_time: '2023-03-20 21:05:22.442202+00:00'
+    channel: Deuteron5T
+    n_events: 21
+    first_event: '2023-03-20 21:07:16.693939+00:00'
+    last_event: '2023-03-20 21:39:25.594462+00:00'
+    labels:
+      Polarize: 21
+    cc_values:
+    - -3.67
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 1.145842087476751e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 2.5524398955534267e-05
+    ptp_V: 0.0202028172153903
+    nrmse: 0.0005671694572397854
+    params:
+      U: 0.9289782372962202
+      Cknob: 1.0550054371571078
+      trim: 7.389933864543525
+      phi_deg: 99.99535142415164
+      DC_offset: -1.8947512885444349
+      L0: 12.216597245307005
+      Rcoil: 0.10441361999668333
+      alpha: 0.13292182692591523
+      Cstray: 16.593400778566554
+    param_errors:
+      U: 0.0021483594929546453
+      Cknob: 0.03197338361291685
+      trim: 0.005378341035903303
+      phi_deg: 0.1324294533704615
+      DC_offset: 0.1129851121348241
+      L0: 0.0010103078591860546
+      Rcoil: 0.0005331390542444028
+      alpha: 0.0021658148611299827
+      Cstray: 0.0007304941698849899
+    params_at_bound: []
+    fit_seconds: 34.0
+    improved_in_pass2: false
+  89:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2023-03-20 21:05:22.442202+00:00'
+    channel: Deuteron5T
+    n_events: 2
+    first_event: '2023-03-20 22:00:43.121865+00:00'
+    last_event: '2023-03-20 22:00:58.557806+00:00'
+    labels:
+      None: 2
+    cc_values:
+    - -3.67
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 8.16820667710119e-06
+    edge_bins_excluded: 3
+    max_abs_resid_V: 1.930913891334818e-05
+    ptp_V: 0.0202028172153903
+    nrmse: 0.0004043102796019326
+    params:
+      U: 0.025723200010049022
+      Cknob: 3.8219245582770287
+      trim: 7.171766771754664
+      phi_deg: 32.1706640690081
+      DC_offset: -1.1063254763726733
+      L0: 1.5728212958470331
+      Rcoil: 0.657691313626281
+      alpha: 0.033957261687223336
+      Cstray: 13.338918533814482
+    param_errors:
+      U: 0.00019694527257412922
+      Cknob: 0.0307719131513578
+      trim: 0.003181325493315558
+      phi_deg: 0.002917240918402986
+      DC_offset: 0.004681668403050156
+      L0: 9.046370185496819e-05
+      Rcoil: 0.00036986322384329964
+      alpha: 9.992682777167663e-05
+      Cstray: 1.1633462688259097e-06
+    params_at_bound: []
+    fit_seconds: 32.9
+    improved_in_pass2: false
+  90:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2023-03-21 14:33:22.413330+00:00'
+    channel: Deuteron5T
+    n_events: 118
+    first_event: '2023-03-21 18:53:31.479427+00:00'
+    last_event: '2023-03-21 22:05:45.106052+00:00'
+    labels:
+      TE: 117
+      Baseline: 1
+    cc_values:
+    - -3.67
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 7.857537086477803e-06
+    edge_bins_excluded: 3
+    max_abs_resid_V: 1.915787095341237e-05
+    ptp_V: 0.02086932737234859
+    nrmse: 0.000376511276395466
+    params:
+      U: 2.508266428189161
+      Cknob: 0.35398589407874936
+      trim: 4.720518306135606
+      phi_deg: 101.71281830880815
+      DC_offset: -29.37307706130154
+      L0: 2.1016067389913697
+      Rcoil: 0.5775480547911633
+      alpha: 0.0966021129965015
+      Cstray: 19.216608217839557
+    param_errors:
+      U: 0.01658383676328965
+      Cknob: 0.005266276975757111
+      trim: 8.241329058297427e-05
+      phi_deg: 0.1002518460860545
+      DC_offset: 0.026693616392590963
+      L0: 0.001340298737347338
+      Rcoil: 0.0028269292248215296
+      alpha: 0.0007010918095135558
+      Cstray: 3.333879546889292e-05
+    params_at_bound: []
+    fit_seconds: 33.7
+    improved_in_pass2: false
+  91:
+    base_file: data-d/current_2023-03-21_18-51-38.txt
+    base_time: '2023-03-21 22:07:21.545228+00:00'
+    channel: Deuteron5T
+    n_events: 10
+    first_event: '2023-03-21 22:07:56.690995+00:00'
+    last_event: '2023-03-21 22:22:24.744866+00:00'
+    labels:
+      Baseline: 10
+    cc_values:
+    - -3.67
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 7.673523740434156e-06
+    edge_bins_excluded: 3
+    max_abs_resid_V: 1.9613930421602532e-05
+    ptp_V: 0.02001079634129921
+    nrmse: 0.0003834691838123994
+    params:
+      U: 0.03646432222987332
+      Cknob: 1.0929344161225267
+      trim: 1.2280445730678131
+      phi_deg: -4.96678092513315
+      DC_offset: -0.30099696991405805
+      L0: 2.4444794699195747
+      Rcoil: 0.32917503333778597
+      alpha: 0.04955236596661747
+      Cstray: 19.51693491170512
+    param_errors:
+      U: 0.00015968899825264017
+      Cknob: 0.010830105404693641
+      trim: 0.0022358094295539237
+      phi_deg: 0.005620591431539338
+      DC_offset: 0.019356441232651327
+      L0: 0.0011738006377486794
+      Rcoil: 0.005307154764436098
+      alpha: 0.00020812841615019782
+      Cstray: 1.996406222887193e-05
+    params_at_bound: []
+    fit_seconds: 31.6
+    improved_in_pass2: false
+  92:
+    base_file: data-d/current_2023-03-21_18-51-38.txt
+    base_time: '2023-03-21 22:19:11.854359+00:00'
+    channel: Deuteron5T
+    n_events: 169
+    first_event: '2023-03-21 22:33:23.742874+00:00'
+    last_event: '2023-03-22 03:03:26.560393+00:00'
+    labels:
+      TE: 169
+    cc_values:
+    - -3.67
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 1.983533777246294e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 6.018590225620457e-05
+    ptp_V: 0.02004183759633671
+    nrmse: 0.0009896965623595556
+    params:
+      U: 1.359643122109578
+      Cknob: 3.8490307032021867
+      trim: 7.556800453232228
+      phi_deg: 142.8729779033135
+      DC_offset: -49.48431386078613
+      L0: 4.505033471406593
+      Rcoil: 0.4835397139840016
+      alpha: 0.20981515557384953
+      Cstray: 6.7817858970718214
+    param_errors:
+      U: 0.0010218992014826935
+      Cknob: 0.015116586580137354
+      trim: 0.00036457789744183454
+      phi_deg: 2.262383725971672e-05
+      DC_offset: 0.000958748955266346
+      L0: 0.0001329945173287952
+      Rcoil: 0.00019754891140543195
+      alpha: 0.0002663560026100189
+      Cstray: 1.0489176213277725e-05
+    params_at_bound: []
+    fit_seconds: 33.1
+    improved_in_pass2: false
+  93:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2023-03-21 22:19:11.854359+00:00'
+    channel: Deuteron5T
+    n_events: 182
+    first_event: '2023-03-22 03:05:49.895483+00:00'
+    last_event: '2023-03-22 14:21:12.116546+00:00'
+    labels:
+      TE: 181
+      Baseline: 1
+    cc_values:
+    - -3.67
+    - -0.816887
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 7.386872585809972e-06
+    edge_bins_excluded: 3
+    max_abs_resid_V: 2.018312134843825e-05
+    ptp_V: 0.02004183759633671
+    nrmse: 0.00036857261966638034
+    params:
+      U: 2.1905908255338997
+      Cknob: 0.41696995115792246
+      trim: 4.744067659240993
+      phi_deg: 94.72700520105695
+      DC_offset: -2.8307407365588886
+      L0: 0.9913058567314603
+      Rcoil: 0.034785289640056664
+      alpha: 0.10577902896365637
+      Cstray: 10.033479082024401
+    param_errors:
+      U: 0.014063806685094491
+      Cknob: 0.006611082717282492
+      trim: 0.000553623412439975
+      phi_deg: 0.06049565276834032
+      DC_offset: 0.01999534845938104
+      L0: 8.063357883912493e-06
+      Rcoil: 0.00013798748078834542
+      alpha: 0.0008418510862252871
+      Cstray: 4.567234034615002e-06
+    params_at_bound: []
+    fit_seconds: 33.3
+    improved_in_pass2: false
+  94:
+    base_file: data-d/current_2023-03-22_03-05-24.txt
+    base_time: '2023-03-22 14:22:48.555753+00:00'
+    channel: Deuteron5T
+    n_events: 5
+    first_event: '2023-03-22 14:23:00.845288+00:00'
+    last_event: '2023-03-22 14:29:26.622619+00:00'
+    labels:
+      Baseline: 5
+    cc_values:
+    - -0.816887
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 1.838361405953575e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 4.7768901045630585e-05
+    ptp_V: 0.02639092536690746
+    nrmse: 0.0006965884600085919
+    params:
+      U: 0.04729559778453105
+      Cknob: 2.0672173004477217
+      trim: 0.8433450808079258
+      phi_deg: -10.063271180013157
+      DC_offset: -1.0878415122867888
+      L0: 7.4640315706521045
+      Rcoil: 0.9839859371288321
+      alpha: 0.0010000025777792934
+      Cstray: 6.268260613292204
+    param_errors:
+      U: 0.0019137520352365195
+      Cknob: 0.17548900720867922
+      trim: 0.0260024710444124
+      phi_deg: 0.14177930091397925
+      DC_offset: 0.3240363850879056
+      L0: 0.012784063121633901
+      Rcoil: 0.1379613769794801
+      alpha: 0.01805510716113482
+      Cstray: 0.0059763748137869645
+    params_at_bound:
+    - alpha
+    fit_seconds: 33.2
+    improved_in_pass2: false
+  95:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2023-03-22 14:31:03.067322+00:00'
+    channel: Deuteron5T
+    n_events: 748
+    first_event: '2023-03-22 14:40:58.321809+00:00'
+    last_event: '2023-03-23 02:20:07.025844+00:00'
+    labels:
+      TE: 252
+      Baseline: 6
+      Polarize: 490
+    cc_values:
+    - -1.121803
+    - -1.1218
+    - -1.0
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 8.978585964917932e-06
+    edge_bins_excluded: 3
+    max_abs_resid_V: 2.1983491175880943e-05
+    ptp_V: 0.024179186582877765
+    nrmse: 0.0003713353190829018
+    params:
+      U: 2.3661195100218
+      Cknob: 0.19559833419047368
+      trim: 4.131769406571271
+      phi_deg: -102.20223598439664
+      DC_offset: -49.89910616195303
+      L0: 8.78699854525803
+      Rcoil: 1.740545218132146
+      alpha: 0.06990947472898824
+      Cstray: 4.366138935946943
+    param_errors:
+      U: 0.01189461825392818
+      Cknob: 0.0022646062882964307
+      trim: 0.001898723503977766
+      phi_deg: 0.04583995171705979
+      DC_offset: 0.009683323929999642
+      L0: 0.0010581056991240854
+      Rcoil: 0.001852273673340698
+      alpha: 0.00046985482419203484
+      Cstray: 0.00022668380271138476
+    params_at_bound: []
+    fit_seconds: 33.4
+    improved_in_pass2: false
+  96:
+    base_file: data-d/current_2023-03-22_23-14-34.txt
+    base_time: '2023-03-23 02:21:43.467695+00:00'
+    channel: Deuteron5T
+    n_events: 4
+    first_event: '2023-03-23 02:21:43.471138+00:00'
+    last_event: '2023-03-23 02:26:32.816557+00:00'
+    labels:
+      Baseline: 4
+    cc_values:
+    - -1.121803
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 8.235329949997595e-06
+    edge_bins_excluded: 3
+    max_abs_resid_V: 3.665255756635233e-05
+    ptp_V: 0.019757638761033647
+    nrmse: 0.0004168175180041986
+    params:
+      U: 2.335823179434066
+      Cknob: 0.30175733895261925
+      trim: 4.704926240380117
+      phi_deg: 77.14516643442185
+      DC_offset: 49.96245886376104
+      L0: 1.2234645483794062
+      Rcoil: 0.22802642389006686
+      alpha: 0.09124594536078931
+      Cstray: 11.346365956845409
+    param_errors:
+      U: 0.00982387744277483
+      Cknob: 0.003761032024025682
+      trim: 0.0004516599609444262
+      phi_deg: 0.03270844752858619
+      DC_offset: 0.010586329823867705
+      L0: 0.0009230369564330011
+      Rcoil: 0.002173402569466039
+      alpha: 0.0006183204207171462
+      Cstray: 1.0530708203472619e-05
+    params_at_bound:
+    - DC_offset
+    fit_seconds: 33.8
+    improved_in_pass2: false
+  97:
+    base_file: data-d/current_2023-03-22_23-14-34.txt
+    base_time: '2023-03-23 02:28:09.257438+00:00'
+    channel: Deuteron5T
+    n_events: 820
+    first_event: '2023-03-23 02:28:09.257684+00:00'
+    last_event: '2023-03-23 15:25:40.016080+00:00'
+    labels:
+      Baseline: 53
+      Polarize: 767
+    cc_values:
+    - -4.0
+    - -3.55
+    - -1.121803
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 1.2335604619211187e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 3.145620436573182e-05
+    ptp_V: 0.02280683018262164
+    nrmse: 0.0005408732612307815
+    params:
+      U: 0.5852328632806485
+      Cknob: 0.5594227736081565
+      trim: 3.7607899996944445
+      phi_deg: -62.03128430768694
+      DC_offset: 14.510131021166801
+      L0: 16.141000757560676
+      Rcoil: 2.391551377887354
+      alpha: 0.10302513430777091
+      Cstray: 17.364592811707617
+    param_errors:
+      U: 0.009086513593158409
+      Cknob: 0.01566059666438824
+      trim: 0.007360626046279892
+      phi_deg: 0.055328223294663165
+      DC_offset: 0.37516921577225953
+      L0: 0.018895633312179107
+      Rcoil: 0.03256182457822391
+      alpha: 0.001445746718484802
+      Cstray: 0.006160346297693728
+    params_at_bound: []
+    fit_seconds: 33.4
+    improved_in_pass2: false
+  98:
+    base_file: data-d/current_2023-03-27_14-05-39.txt
+    base_time: '2023-03-27 14:07:34.303072+00:00'
+    channel: Deuteron5T
+    n_events: 12
+    first_event: '2023-03-27 14:07:34.303404+00:00'
+    last_event: '2023-03-27 14:51:55.001458+00:00'
+    labels:
+      Junk: 12
+    cc_values:
+    - -3.55
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 1.1915489896879242e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 4.077648137990053e-05
+    ptp_V: 0.02865092287224602
+    nrmse: 0.00041588502925403865
+    params:
+      U: 0.06647161506425411
+      Cknob: 0.6258979234044374
+      trim: 1.3275829545622346
+      phi_deg: -20.099600949306815
+      DC_offset: 1.6581184522717418
+      L0: 2.162759473972051
+      Rcoil: 0.24692571565711643
+      alpha: 0.06463261574777557
+      Cstray: 15.263226386060873
+    param_errors:
+      U: 0.0004068995802259422
+      Cknob: 0.006557635000633867
+      trim: 0.001636256808789508
+      phi_deg: 0.013141784053315552
+      DC_offset: 0.02718792513631074
+      L0: 0.003517054965937552
+      Rcoil: 0.012874107051657601
+      alpha: 0.0003589468825182425
+      Cstray: 3.153268481655128e-05
+    params_at_bound: []
+    fit_seconds: 33.8
+    improved_in_pass2: false
+  99:
+    base_file: data-d\current_2023-03-31_19-01-35.txt
+    base_time: '2023-03-31 19:14:36.138929+00:00'
+    channel: Deuteron5T
+    n_events: 9
+    first_event: '2023-03-31 19:14:36.138929+00:00'
+    last_event: '2023-03-31 19:36:01.055321+00:00'
+    labels:
+      Baseline: 2
+      Baseline 15K: 4
+      Baseline 13K: 1
+      Baseline 9K: 2
+    cc_values:
+    - -1.42
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 9.326216425099562e-06
+    edge_bins_excluded: 3
+    max_abs_resid_V: 3.267062525269537e-05
+    ptp_V: 0.020243098936835624
+    nrmse: 0.00046071090469893363
+    params:
+      U: 0.30546530524682747
+      Cknob: 0.6882499247536679
+      trim: 7.377384865871073
+      phi_deg: -46.10596130203792
+      DC_offset: 11.800249636731143
+      L0: 2.9962969481186903
+      Rcoil: 1.4875983132052946
+      alpha: 0.06616778538052827
+      Cstray: 16.893400391126352
+    param_errors:
+      U: 0.0020157225965820014
+      Cknob: 0.008256106490774838
+      trim: 0.003617849113327464
+      phi_deg: 0.018538508109132133
+      DC_offset: 0.1386821499483689
+      L0: 0.0023185568781525384
+      Rcoil: 0.01212827804687688
+      alpha: 0.00035243930135184335
+      Cstray: 0.00016223795786488132
+    params_at_bound: []
+    fit_seconds: 29.6
+    improved_in_pass2: false
+  100:
+    base_file: data-d/current_2022-07-20_20-07-48.txt
+    base_time: '2022-07-20 20:24:22.955330+00:00'
+    channel: Deuteron5T-400mV
+    n_events: 5
+    first_event: '2022-07-20 20:25:20.444362+00:00'
+    last_event: '2022-07-20 20:31:46.224043+00:00'
+    labels:
+      Baseline: 5
+    cc_values:
+    - -3.701902
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 1.9214181675048167e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 6.0273997437132465e-05
+    ptp_V: 0.04950275086572109
+    nrmse: 0.0003881437160364619
+    params:
+      U: 1.0148205601381104
+      Cknob: 0.4969090630622727
+      trim: 4.43667626363187
+      phi_deg: -43.421393153956664
+      DC_offset: 49.32786530113632
+      L0: 1.2205218009237564
+      Rcoil: 0.21441786341634697
+      alpha: 0.07493895756299226
+      Cstray: 2.6641157047767448
+    param_errors:
+      U: 0.001193272852335521
+      Cknob: 0.003604286030976545
+      trim: 0.0036630286530867965
+      phi_deg: 0.21203245241020088
+      DC_offset: 0.22353458304574167
+      L0: 0.045425719902575594
+      Rcoil: 0.15453130239167462
+      alpha: 0.0010658275671029465
+      Cstray: 0.0008148170164595253
+    params_at_bound: []
+    fit_seconds: 29.2
+    improved_in_pass2: false
+  101:
+    base_file: data-d/current_2022-07-20_20-07-48.txt
+    base_time: '2022-07-20 20:33:22.670902+00:00'
+    channel: Deuteron5T-400mV
+    n_events: 2
+    first_event: '2022-07-20 20:33:45.240448+00:00'
+    last_event: '2022-07-20 20:35:41.089338+00:00'
+    labels:
+      Baseline: 2
+    cc_values:
+    - -3.701902
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 4.401804394971671e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.0002019657258696128
+    ptp_V: 0.10127456329980333
+    nrmse: 0.0004346406690435187
+    params:
+      U: 0.1228018655038962
+      Cknob: 0.8918291793922932
+      trim: 4.364181659454301
+      phi_deg: 13.751486226561617
+      DC_offset: 2.5333412974921425
+      L0: 3.832972079239903
+      Rcoil: 0.5910385063416504
+      alpha: 0.035767942197391475
+      Cstray: 8.868970863338266
+    param_errors:
+      U: 0.00032633690839398394
+      Cknob: 0.0016335963139139911
+      trim: 0.0003487983034383942
+      phi_deg: 0.0185535487630852
+      DC_offset: 0.021393011192946055
+      L0: 0.0007213135220099326
+      Rcoil: 0.0048243789741414704
+      alpha: 4.415707497729483e-05
+      Cstray: 2.274210302735846e-05
+    params_at_bound: []
+    fit_seconds: 30.4
+    improved_in_pass2: false
+  102:
+    base_file: data-d/current_2022-07-20_20-07-48.txt
+    base_time: '2022-07-20 20:37:17.530225+00:00'
+    channel: Deuteron5T-400mV
+    n_events: 7
+    first_event: '2022-07-20 20:41:59.468404+00:00'
+    last_event: '2022-07-20 20:49:58.575995+00:00'
+    labels:
+      Junk: 5
+      Polarize: 2
+    cc_values:
+    - -3.701902
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 4.345080511539331e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.0002010064191626526
+    ptp_V: 0.10120904927739716
+    nrmse: 0.0004293173923242959
+    params:
+      U: 0.46322226149525464
+      Cknob: 0.44351635738570927
+      trim: 3.8837732418944744
+      phi_deg: 1.8358087201824052
+      DC_offset: 29.98247979692205
+      L0: 18.628629144873
+      Rcoil: 0.4179034665050602
+      alpha: 0.05298167887062579
+      Cstray: 16.520491036543053
+    param_errors:
+      U: 0.00011587043433402473
+      Cknob: 0.001127733765417403
+      trim: 0.0002796461849948828
+      phi_deg: 0.03376617410323592
+      DC_offset: 0.006660160410692263
+      L0: 0.0015843451473945528
+      Rcoil: 0.004096996205458254
+      alpha: 8.872060293877507e-05
+      Cstray: 0.0006058490557791228
+    params_at_bound: []
+    fit_seconds: 17.0
+    improved_in_pass2: true
+  103:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2022-07-20 20:24:22.955330+00:00'
+    channel: Deuteron5T
+    n_events: 1
+    first_event: '2022-07-20 20:51:20.256404+00:00'
+    last_event: '2022-07-20 20:51:20.256404+00:00'
+    labels:
+      Polarize: 1
+    cc_values:
+    - -3.701902
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 4.1706296760263875e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.0001422775514776653
+    ptp_V: 0.04950275086572109
+    nrmse: 0.0008425046291547409
+    params:
+      U: 0.2025376508759656
+      Cknob: 0.8495492765978999
+      trim: 4.416100722658109
+      phi_deg: -7.818523213423381
+      DC_offset: 11.656611275957738
+      L0: 1.5525333294853247
+      Rcoil: 0.44526429788267813
+      alpha: 0.056805521474192676
+      Cstray: 8.657884747750936
+    param_errors:
+      U: 0.0006626103403994485
+      Cknob: 0.010025125708642727
+      trim: 0.0029027140944607047
+      phi_deg: 0.05572668247171016
+      DC_offset: 0.05911724153214806
+      L0: 0.004008896990241628
+      Rcoil: 0.01737344576190795
+      alpha: 0.00037167577022356697
+      Cstray: 7.445047261906321e-07
+    params_at_bound: []
+    fit_seconds: 28.3
+    improved_in_pass2: false
+  104:
+    base_file: data-d/recent_baselines.txt
+    base_time: '2022-07-20 20:37:17.530225+00:00'
+    channel: Deuteron5T-400mV
+    n_events: 209
+    first_event: '2022-07-20 20:53:23.665253+00:00'
+    last_event: '2022-07-20 23:45:23.204967+00:00'
+    labels:
+      Polarize: 203
+      Baseline: 6
+    cc_values:
+    - -15.0
+    - -3.701902
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 4.345080511539331e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.0002010064191626526
+    ptp_V: 0.10120904927739716
+    nrmse: 0.0004293173923242959
+    params:
+      U: 0.46322226149525464
+      Cknob: 0.44351635738570927
+      trim: 3.8837732418944744
+      phi_deg: 1.8358087201824052
+      DC_offset: 29.98247979692205
+      L0: 18.628629144873
+      Rcoil: 0.4179034665050602
+      alpha: 0.05298167887062579
+      Cstray: 16.520491036543053
+    param_errors:
+      U: 0.00011587043433402473
+      Cknob: 0.001127733765417403
+      trim: 0.0002796461849948828
+      phi_deg: 0.03376617410323592
+      DC_offset: 0.006660160410692263
+      L0: 0.0015843451473945528
+      Rcoil: 0.004096996205458254
+      alpha: 8.872060293877507e-05
+      Cstray: 0.0006058490557791228
+    params_at_bound: []
+    fit_seconds: 15.9
+    improved_in_pass2: true
+  105:
+    base_file: data-d/current_2022-07-20_20-07-48.txt
+    base_time: '2022-07-20 23:46:59.647458+00:00'
+    channel: Deuteron5T-400mV
+    n_events: 46
+    first_event: '2022-07-20 23:46:59.651951+00:00'
+    last_event: '2022-07-21 00:02:58.076271+00:00'
+    labels:
+      Baseline: 2
+      Junk: 3
+      Polarize: 41
+    cc_values:
+    - -15.0
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 4.6310533743499216e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 0.00021071835454122834
+    ptp_V: 0.10157244860619219
+    nrmse: 0.00045593597849600306
+    params:
+      U: 0.14856472952895164
+      Cknob: 0.7748870223159706
+      trim: 4.463572753615533
+      phi_deg: 12.211900068737426
+      DC_offset: 4.718139956711719
+      L0: 1.985921678864679
+      Rcoil: 0.010281890032973967
+      alpha: 0.038091192048097536
+      Cstray: 15.136275219547203
+    param_errors:
+      U: 0.00030869163413646533
+      Cknob: 0.0016332235632261403
+      trim: 0.0003502052084061529
+      phi_deg: 0.023860100050536286
+      DC_offset: 0.020379215976821675
+      L0: 0.0011217049572185998
+      Rcoil: 0.0064859448482971925
+      alpha: 4.31333467928053e-05
+      Cstray: 1.7446854328003834e-05
+    params_at_bound: []
+    fit_seconds: 30.0
+    improved_in_pass2: false
+  106:
+    base_file: data-d/current_2023-03-21_14-13-19.txt
+    base_time: '2023-03-21 14:28:31.769432+00:00'
+    channel: Deuteron5T
+    n_events: 3
+    first_event: '2023-03-21 14:28:33.070530+00:00'
+    last_event: '2023-03-21 14:31:45.960870+00:00'
+    labels:
+      Baseline: 3
+    cc_values:
+    - -3.67
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 1.2311989414160324e-05
+    edge_bins_excluded: 3
+    max_abs_resid_V: 3.566281252842529e-05
+    ptp_V: 0.020793109010192712
+    nrmse: 0.0005921187354966988
+    params:
+      U: 0.06143326272354151
+      Cknob: 2.875937043320399
+      trim: 6.981374029305707
+      phi_deg: 8.876144130201782
+      DC_offset: 1.104582640426285
+      L0: 5.385886486804656
+      Rcoil: 0.4897856823411751
+      alpha: 0.06358364438798135
+      Cstray: 2.9413629952250946
+    param_errors:
+      U: 0.0004062418365377094
+      Cknob: 0.06334904198149562
+      trim: 0.010538900621209078
+      phi_deg: 0.0057621184907421545
+      DC_offset: 0.020744331082830633
+      L0: 0.00027740181293255296
+      Rcoil: 0.0005600660426379667
+      alpha: 0.0001514582831264027
+      Cstray: 5.458761479813745e-06
+    params_at_bound: []
+    fit_seconds: 29.0
+    improved_in_pass2: false
+  107:
+    base_file: data-d/current_2023-03-21_14-13-19.txt
+    base_time: '2023-03-21 14:33:22.413330+00:00'
+    channel: Deuteron5T
+    n_events: 152
+    first_event: '2023-03-21 14:33:22.413574+00:00'
+    last_event: '2023-03-21 18:42:14.281853+00:00'
+    labels:
+      Baseline: 13
+      TE: 139
+    cc_values:
+    - -3.67
+    freq_min_mhz: 32.300000000000004
+    freq_max_mhz: 33.099987792968754
+    n_bins: 512
+    rms_V: 8.86659739122557e-06
+    edge_bins_excluded: 3
+    max_abs_resid_V: 2.12405236426072e-05
+    ptp_V: 0.02086932737234859
+    nrmse: 0.0004248626337125566
+    params:
+      U: 0.12005905929506781
+      Cknob: 0.9702411548621364
+      trim: 3.8452391269204056
+      phi_deg: -11.56658995107127
+      DC_offset: 5.912104314101865
+      L0: 15.775841626474737
+      Rcoil: 2.7451803091103657
+      alpha: 0.07671829625227614
+      Cstray: 3.27387062582459
+    param_errors:
+      U: 0.00040484031426376297
+      Cknob: 0.010253226944174043
+      trim: 0.002900161684960566
+      phi_deg: 0.017978746810039668
+      DC_offset: 0.04407287890654235
+      L0: 0.00011279853353492937
+      Rcoil: 0.001816452512738298
+      alpha: 0.00034951530112518073
+      Cstray: 0.0001575330870331129
+    params_at_bound: []
+    fit_seconds: 28.7
+    improved_in_pass2: false

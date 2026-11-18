@@ -1,0 +1,7 @@
+fitting 107 baselines with 14 workers, 200 random starts each
+pass 1 done in 267 s
+pass 2: retrying 34 baselines with neighbour seeds
+
+wrote /Users/suejaan/Desktop/PT-NMR-ML/RGC_Pol_Analysis/baseline_refit/results/baseline_fits_physical.yaml  (5.3 min wall)
+rms: median 43.2 µV, 90% 782.9 µV, max 1768.2 µV
+baselines with a parameter at a bound: 23
