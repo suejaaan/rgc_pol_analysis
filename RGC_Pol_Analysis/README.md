@@ -1,63 +1,34 @@
 # RGC_Pol_Analysis
 
-Offline analysis of the CLAS12 RGC polarized-deuteron target NMR data, aimed at better
-polarization extraction and physically valid Monte Carlo for ML training.
+Offline analysis of the CLAS12 RGC polarized-deuteron target NMR data. The goal: fit the raw NMR sweeps
+with a physical model, generate realistic Monte Carlo from the fitted parameters, and train ML to extract
+the polarization faster and more precisely than the traditional fits.
 
-Builds on the `data_creation/` and `ml/` code in this repository (lineshape, Q-meter
-circuit, signal generator). Raw data (`data_creation/data-d`) is not part of the repo.
+Builds on `data_creation/` and `ml/` in this repository. Raw data (`data_creation/data-d`) is not in the repo.
+Each folder has its own README with purpose, method, results and run commands.
 
-## Contents
+| Folder | Purpose | Main result |
+|---|---|---|
+| `online_signal_inspection/` | How the online P is made | P = hand-entered cc × summed area; no lineshape fit |
+| `qmeter_dulya_fit/` | Physical raw-sweep model (Q-meter + Dulya χ in the coil) and area method | Matches online within 2.5 % at the same cc; `model.py` is used everywhere |
+| `baseline_refit/` | Replace the unphysical upstream baseline fits | 0/107 unphysical (upstream 64/64); rms 66 → 20 µV |
+| `multi_period_fit/` | Fit 30 events across 8 periods; regenerate signals | Median −2.6 % vs online; closure 2 %; parameters are a valid MC basis |
+| `te_calibration/` | Recalibrate cc from TE runs | No TE run reaches equilibrium, so cc cannot be recalibrated from TE |
+| `lineshape_polarization/` | P without cc, from the spin-1 lineshape; check every period | 56 % of events consistent (P −0.51…+0.55); cc −14.5 on the 5T channel and −2.36 (19 %) are wrong; lineshape conflicts with the area in fast build-ups, so it is valid only on stable plateaus, \|P\| ≳ 0.3 |
 
-| Folder | What it does |
-|---|---|
-| `online_signal_inspection/` | Plots the online processing chain for selected events: raw Q-meter sweep, stored baseline, baseline-subtracted signal with the online wing polynomial, and the final `fitsub` that is summed into `area` (`pol = cc × area`). |
-| `baseline_refit/` | Refits all 107 unique `data-d` baseline sweeps with the bounded physical Q-meter (parallel). Replaces the unphysical upstream fits. |
-| `multi_period_fit/` | Raw-sweep Q-meter + Dulya fits of 30 events across 8 periods (both signs), comparison with online P, regenerated signals and closure test. Summary: `multi_period_fit/MEETING_SUMMARY.md`. |
-| `te_calibration/` | Survey of TE runs and cc cross-checks (TE relaxation fits, lineshape-asymmetry cc). |
-| `qmeter_dulya_fit/` | Fits the **raw sweep** directly with a Liverpool Q-meter circuit whose coil contains the Dulya deuteron susceptibility (χ″ lineshape, χ′ from Kramers–Kronig). No stored baseline, no polynomial. Extracts P with the **area method**: cc × Σ of the χ″-driven part of the fitted signal. |
+## Overall findings
 
-## Running
-
-Uses the miniforge environment (numpy, scipy, matplotlib, pyyaml):
-
-```bash
-python online_signal_inspection/plot_signal_comparison.py 0 250 500
-cd qmeter_dulya_fit
-python fit_events.py 0 250 500      # ~1-2 min/event; writes results/
-python plot_results.py              # writes plots/ and plots/results_table.md
-```
-
-## Findings so far (run 2022-09-23_00-54-02, cc = −1.39)
-
-| event | P online | P area (Q-meter + Dulya) | Δ\|P\| / \|P online\| |
-|---|---|---|---|
-| 0 | −0.1745 | −0.178 ± 0.002 | +2.0 % |
-| 250 | −0.3190 | −0.318 ± 0.005 | −0.4 % |
-| 500 | −0.3144 | −0.322 ± 0.003 | +2.4 % |
-
-- With the same cc, the area from a physical Q-meter background agrees with the online
-  baseline + wing-polynomial area to within 2.5 %, once only the χ″ (absorptive) part is
-  summed. Summing the full output signal instead is ~15 % low, because the dispersive (χ′)
-  part leaks a 1/f tail into the wings that the online polynomial treats as background.
-- The background treatment therefore contributes little; the online polarization
-  uncertainty is dominated by the calibration constant cc.
-
-## Known issues in upstream inputs
-
-- `data_creation/fitting/baseline_fits_*.yaml`: every Q-meter fit has at least one
-  physically impossible parameter (negative L0, Rcoil, r, M, Cstray, …) because all
-  21 parameters are fitted unbounded. These feed the RGC training-data generator.
-- `data-d`: 133 of 343 run files are empty; `current_*` files are partial copies of
-  run files; 0.3 % of events have `pol ≠ cc × area`; cc values are hand-entered online
-  values that vary from −0.82 to −20 across periods.
-- TE runs in `data-d` never clearly reach equilibrium, so they cannot recalibrate cc. Where
-  tested, the online cc agrees with a calibration-free lineshape check to ~5–10 %
-  (`te_calibration/README.md`).
+- **Background is not the problem:** from Sep 2022 to Mar 2023 the online background treatment is good to a few %. The weak point is the hand-entered cc.
+- **The cc −14.5 period is wrong on the 5T channel:** Jul 28 – Sep 6, 2022, 12,198 events. Online P is ~3–4× too high, and 36 % of events claim more than 55 %, which is impossible for deuterons. It is most likely the 400 mV-channel cc kept after switching channels. cc −2.36 (Sep 6) is 1.76× too high. These events are part of the PT-NMR-ML training input with the wrong cc.
+- **Lineshape and area disagree in fast DNP build-ups:** the area grows ~9× at fixed tune while the lineshape P stays ~0.35. The likely cause is no common spin temperature yet. Lineshape labels must come from stable plateaus.
+- **Unusable early data:** Jun – early Jul 2022 online processing is unusable. The 400 mV channel signals are distorted.
+- **Upstream inputs have problems:**
+  - `data-d`: 133 of 343 files are empty, and the `current_*` files partly duplicate run files.
+  - Upstream baseline fits are unphysical.
+  - The RGC generator scales the signal amplitude with the online cc.
 
 ## Next steps
 
-1. ~~Refit the data-d baselines with the bounded physical circuit~~ (done: `baseline_refit/`;
-   June 2022 high-power baselines still fit poorly).
-2. Per-period cc cross-check from the lineshape asymmetry of high-P events (TE runs are unusable).
-3. Sample lineshape parameters and per-event background drift from raw-sweep fits.
-4. Regenerate MC from physical parameters (signal inside the Q-meter via χ) and retrain the ML models.
+1. Build polarization labels that don't rely on the online P or cc. Use the lineshape on stable high-P plateaus, and carry it to lower P within a plateau's fixed cc and tune.
+2. Sample lineshape and circuit parameters, plus per-event background drift, from the raw-sweep fits.
+3. Generate physical MC (signal inside the Q-meter via χ) and retrain the ML models.

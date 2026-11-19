@@ -25,7 +25,7 @@ NOTES = {
     -20.0: ("unresolved", "400 mV: RF saturation?"),
     -14.5: ("online wrong", "online P too high"),
     -2.36: ("online wrong", "short entry"),
-    -1.122: ("online wrong", "cc from unfinished TE"),
+    -1.122: ("unresolved", "low P; cc from unfinished TE"),
     -1.0: ("unresolved", "area drifts, P_ls constant"),
     -4.0: ("unresolved", "area drifts, low P"),
     -3.55: ("unresolved", "area drifts, low P"),

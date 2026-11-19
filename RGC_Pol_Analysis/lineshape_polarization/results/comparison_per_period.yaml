@@ -216,8 +216,8 @@
   r_ar: 0.9699444961709384
   r_ls: 2.493039759710772
   cc_ls: -2.796695754424864
-  status: online wrong
-  note: "lineshape +0.19 (+149%) \xB7 area +0.00 (-3%)  \u2014 cc from unfinished\
+  status: unresolved
+  note: "lineshape +0.19 (+149%) \xB7 area +0.00 (-3%)  \u2014 low P; cc from unfinished\
     \ TE"
   channel: 5T
 - cc: -1.0
