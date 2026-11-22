@@ -9,6 +9,7 @@ The same fits also store P_area (online cc x sum chi'') and the online pol, for 
 
 Usage: python run_lineshape.py [cc ...]    (no args: all periods; with cc values: rerun only those periods)
 """
+import os
 import csv
 import json
 import sys
@@ -37,7 +38,7 @@ MIN_PERIOD_EVENTS = 100
 SKIP_CC = {-5.246731: "online processing unusable (Jun - early Jul 2022)"}
 CHANNELS = ("Deuteron5T", "Deuteron5T-300mV", "Deuteron5T-400mV", "Deuteron5T-150mV")
 ETA_FIXED, WQ_FIXED = 0.108, 0.0825
-N_WORKERS = 14
+N_WORKERS = int(os.environ.get("N_WORKERS", max(1, (os.cpu_count() or 4) - 2)))  # all cores but 2
 
 
 def select():

@@ -10,6 +10,7 @@ MIN_RELIABLE_P are flagged "low P".
 Requires ../baseline_refit/cache/event_baseline_map.csv (collect_baselines.py).
 Usage: python shape_cc_survey.py
 """
+import os
 import csv
 import json
 import sys
@@ -36,7 +37,7 @@ N_PER_GROUP = 20
 TOP_FRACTION = 0.3
 MIN_GROUP_EVENTS = 20
 MIN_RELIABLE_P = 0.25
-N_WORKERS = 14
+N_WORKERS = int(os.environ.get("N_WORKERS", max(1, (os.cpu_count() or 4) - 2)))  # all cores but 2
 SWEEP = (32.29, 33.11)
 
 

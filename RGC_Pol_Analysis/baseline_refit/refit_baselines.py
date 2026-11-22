@@ -12,6 +12,7 @@ Pass 2: refit baselines whose rms is well above the median, seeded with the best
 Usage: python refit_baselines.py [baseline ids...]     (default: all non-zero baselines)
 Run collect_baselines.py first.
 """
+import os
 import sys
 import time
 from multiprocessing import Pool
@@ -28,7 +29,7 @@ import model as M  # noqa: E402
 CACHE = HERE / "cache"
 OUT_YAML = HERE / "results" / "baseline_fits_physical.yaml"
 N_RANDOM = 200
-N_WORKERS = 14
+N_WORKERS = int(os.environ.get("N_WORKERS", max(1, (os.cpu_count() or 4) - 2)))  # all cores but 2
 SCALE = 1e4
 RETRY_FACTOR = 3.0
 N_SEED_NEIGHBORS = 6

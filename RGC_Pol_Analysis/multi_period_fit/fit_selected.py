@@ -11,6 +11,7 @@ Per event:
 
 Writes results/fits.yaml and results/event_<file>_<index>.npz. Run select_events.py first.
 """
+import os
 import json
 import sys
 import time
@@ -34,7 +35,7 @@ MAX_NFEV_JOINT = 600
 N_CIRCUIT_STARTS = 80
 CANDIDATE_COST_FACTOR = 4.0
 N_JOINT_STARTS = 3
-N_WORKERS = 14
+N_WORKERS = int(os.environ.get("N_WORKERS", max(1, (os.cpu_count() or 4) - 2)))  # all cores but 2
 WING_POLY_DEG = 3
 SIGNAL_REGION = (32.48, 32.90)
 SHAPE0 = dict(f0=32.685, wq=0.082, eta_q=0.11, g=0.03)

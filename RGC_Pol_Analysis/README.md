@@ -15,6 +15,7 @@ Each folder has its own README with purpose, method, results and run commands.
 | `multi_period_fit/` | Fit 30 events across 8 periods; regenerate signals | Median −2.6 % vs online; closure 2 %; parameters are a valid MC basis |
 | `te_calibration/` | Recalibrate cc from TE runs | No TE run reaches equilibrium, so cc cannot be recalibrated from TE |
 | `lineshape_polarization/` | P without cc, from the spin-1 lineshape; check every period | 56 % of events consistent (P −0.51…+0.55); cc −14.5 on the 5T channel and −2.36 (19 %) are wrong; lineshape conflicts with the area in fast build-ups, so it is valid only on stable plateaus, \|P\| ≳ 0.3 |
+| `label_dataset/` | cc-free labels: event inventory, plateau selection, fits, label validation (in progress) | 55,191 candidate events in 55 tune segments; 116 plateaus, 732 events picked for fitting |
 
 ## Overall findings
 
