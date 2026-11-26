@@ -1,0 +1,14 @@
+variants: 48 joint refits
+  eta_lo    : Δ|P| median +0.0032, range -0.0076 .. +0.0212, cost ×1.11
+  eta_hi    : Δ|P| median +0.0017, range -0.0107 .. +0.0185, cost ×1.02
+  wq_lo     : Δ|P| median +0.0033, range -0.0063 .. +0.0210, cost ×1.23
+  wq_hi     : Δ|P| median +0.0003, range -0.0136 .. +0.0231, cost ×1.21
+  no_gauss  : Δ|P| median +0.0106, range +0.0038 .. +0.0237, cost ×2.06
+  nphi_128  : Δ|P| median +0.0018, range -0.0041 .. +0.0113, cost ×1.03
+  g_lo_1e-4 : Δ|P| median +0.0002, range -0.0137 .. +0.0177, cost ×1.00
+variants done at 41.6 min
+closure: 24 MC segments
+closure: bias |P_fit|-|P_true| median -0.0005, rms 0.0030
+  white: median -0.0002  rms 0.0032  max |.| 0.0134
+  real : median -0.0006  rms 0.0027  max |.| 0.0182
+closure done at 74.8 min

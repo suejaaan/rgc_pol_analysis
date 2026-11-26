@@ -1,0 +1,27 @@
+25 global circuit starts; screening 115 (segment, start) pairs
+screening done in 2.4 min
+  segment 112: best starts [('good fit seg 115 02-11 00:55', 14.1), ('good fit seg 116 02-13 14:19', 14.2), ('good fit seg 125 03-06 03:53', 15.4)]
+  segment 119: best starts [('own pilot 02-25 20:50', 21.7), ('good fit seg 116 02-11 12:00', 25.6), ('good fit seg 154 03-23 09:20', 29.9)]
+  segment 125: best starts [('own pilot 03-06 03:53', 13.4), ('own pilot 03-04 18:26', 14.3), ('good fit seg 110 02-04 04:56', 15.2)]
+  segment 133: best starts [('good fit seg 125 03-06 03:53', 22.6), ('good fit seg 110 02-04 04:56', 23.0), ('good fit seg 125 03-04 18:26', 24.5)]
+joint fits done in 16.2 min
+
+segment 112  [829 s]
+  good fit seg 115 02-11 00:55 cost     38.2  σ 4.7 kHz  rescued 0  |P| [0.396, 0.417, 0.409, 0.372, 0.362, 0.358, 0.362, 0.348]  P/area spread 1.8%  rms sig 15.6 µV
+  good fit seg 116 02-13 14:19 cost     38.4  σ 4.7 kHz  rescued 0  |P| [0.392, 0.408, 0.405, 0.371, 0.357, 0.357, 0.36, 0.347]  P/area spread 1.8%  rms sig 15.5 µV
+  good fit seg 125 03-06 03:53 cost     40.8  σ 4.4 kHz  rescued 0  |P| [0.416, 0.429, 0.427, 0.39, 0.377, 0.364, 0.375, 0.362]  P/area spread 2.2%  rms sig 16.6 µV
+
+segment 119  [358 s]
+  own pilot 02-25 20:50      cost     57.2  σ 4.4 kHz  rescued 0  |P| [0.505, 0.511, 0.432, 0.37, 0.369, 0.36, 0.361, 0.355]  P/area spread 1.8%  rms sig 13.9 µV
+  good fit seg 116 02-11 12:00 cost     67.1  σ 4.2 kHz  rescued 0  |P| [0.504, 0.51, 0.425, 0.365, 0.365, 0.356, 0.357, 0.35]  P/area spread 1.6%  rms sig 14.9 µV
+  good fit seg 154 03-23 09:20 cost     78.4  σ 4.3 kHz  rescued 0  |P| [0.503, 0.509, 0.424, 0.371, 0.371, 0.362, 0.364, 0.358]  P/area spread 2.1%  rms sig 15.3 µV
+
+segment 125  [485 s]
+  own pilot 03-06 03:53      cost     31.5  σ 4.7 kHz  rescued 0  |P| [0.385, 0.393, 0.366, 0.359, 0.357, 0.347, 0.339, 0.346]  P/area spread 1.5%  rms sig 14.2 µV
+  own pilot 03-04 18:26      cost     32.9  σ 4.8 kHz  rescued 0  |P| [0.388, 0.389, 0.364, 0.357, 0.355, 0.345, 0.338, 0.345]  P/area spread 1.6%  rms sig 14.2 µV
+  good fit seg 110 02-04 04:56 cost     34.8  σ 4.6 kHz  rescued 1  |P| [0.397, 0.393, 0.367, 0.36, 0.363, 0.355, 0.336, 0.353]  P/area spread 2.1%  rms sig 14.6 µV
+
+segment 133  [601 s]
+  good fit seg 125 03-06 03:53 cost     60.5  σ 4.2 kHz  rescued 0  |P| [0.474, 0.478, 0.472, 0.447, 0.449, 0.428, 0.416, 0.398]  P/area spread 1.1%  rms sig 21.9 µV
+  good fit seg 110 02-04 04:56 cost     63.0  σ 4.1 kHz  rescued 0  |P| [0.482, 0.488, 0.482, 0.456, 0.458, 0.435, 0.425, 0.403]  P/area spread 0.9%  rms sig 22.5 µV
+  good fit seg 125 03-04 18:26 cost     66.8  σ 4.2 kHz  rescued 0  |P| [0.472, 0.481, 0.474, 0.457, 0.452, 0.436, 0.417, 0.406]  P/area spread 1.6%  rms sig 22.9 µV
