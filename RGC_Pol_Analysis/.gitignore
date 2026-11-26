@@ -2,3 +2,10 @@
 *.npz
 *.log
 fit_log.txt
+
+# MC datasets (regenerate with mc_generation/stage5_generate.py)
+mc_generation/mc_data/
+
+# ML: trained weights and real-data export (CLAS data, keep private)
+ml/Models/
+ml/data_real/

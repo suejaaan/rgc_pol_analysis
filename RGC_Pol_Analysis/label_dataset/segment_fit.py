@@ -113,8 +113,12 @@ def load(evs):
     return fs, raws
 
 
-def own_start(circuit, s):
-    return np.array([circuit[0], circuit[3], circuit[4], s["A"], s["P"], s["f0"], G0])
+def own_start(circuit, s, f=None, raw=None):
+    """Own-parameter start. s["A"] = None: amplitude estimated from the data through this circuit."""
+    A = s["A"]
+    if A is None:
+        A = FS.FE.initial_amplitude(f, raw, list(circuit), [s["P"], s["f0"], WQ, ETA, 0.03])
+    return np.array([circuit[0], circuit[3], circuit[4], A, s["P"], s["f0"], G0])
 
 
 def screen(job):
@@ -122,7 +126,7 @@ def screen(job):
     idx = np.linspace(0, len(evs) - 1, N_SCREEN).astype(int)
     fs, raws = load([evs[i] for i in idx])
     sh = np.concatenate([np.asarray(circuit)[SHARED_C], [SIGMA0]])
-    cost = sum(fit_own(f, raw, sh, own_start(circuit, sig[evs[i]["time"]]), 200)[1]
+    cost = sum(fit_own(f, raw, sh, own_start(circuit, sig[evs[i]["time"]], f, raw), 200)[1]
                for i, f, raw in zip(idx, fs, raws))
     return seg, label, float(cost)
 
@@ -134,7 +138,7 @@ def joint_segment(job):
     sols = []
     for label, circuit in starts:
         sh = np.concatenate([np.asarray(circuit)[SHARED_C], [SIGMA0]])
-        owns = [fit_own(f, raw, sh, own_start(circuit, sig[e["time"]]))[0] for e, f, raw in zip(evs, fs, raws)]
+        owns = [fit_own(f, raw, sh, own_start(circuit, sig[e["time"]], f, raw))[0] for e, f, raw in zip(evs, fs, raws)]
         sh, owns, cost = joint_fit(fs, raws, sh, owns)
         # rescue events stuck in a bad local minimum
         rs = np.array([rms_parts(f, raw, sh, o)[0] for f, raw, o in zip(fs, raws, owns)])

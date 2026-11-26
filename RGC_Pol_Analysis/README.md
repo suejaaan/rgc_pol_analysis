@@ -16,6 +16,8 @@ Each folder has its own README with purpose, method, results and run commands.
 | `te_calibration/` | Recalibrate cc from TE runs | No TE run reaches equilibrium, so cc cannot be recalibrated from TE |
 | `lineshape_polarization/` | P without cc, from the spin-1 lineshape; check every period | 56 % of events consistent (P −0.51…+0.55); cc −14.5 on the 5T channel and −2.36 (19 %) are wrong; lineshape conflicts with the area in fast build-ups, so it is valid only on stable plateaus, \|P\| ≳ 0.3 |
 | `label_dataset/` | cc-free labels: event inventory, plateau selection, segment-joint fits (one circuit per tune), label validation | **484 labels**, \|P\| 0.30–0.54, both signs, total error 3.6 % (median); MC closure bias −0.0006 |
+| `mc_generation/` | MC parameter library (Stage 4) and generator (Stage 5) | 2,316 fitted events from 27 tune segments (484 labels); records drawn whole (circuit, σ, g, amplitude per unit P, real coloured noise); misfit template from the labels; Jun–Jul 2022 tunes cannot be modelled. Generator: real-vs-MC classifier AUC 0.45 (indistinguishable); split by tune; 1M sweeps |
+| `ml/` | Training (Stage 6) and real-data validation (Stage 7), adapted from upstream `ml/` | Tune-split training on the MC; P + σ_P output; evaluation on held-out MC tunes and the 484 real labels (93 in unseen test tunes). Ready for the GPU desktop |
 
 ## Overall findings
 

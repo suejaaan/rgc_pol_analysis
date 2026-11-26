@@ -1,0 +1,26 @@
+part A: 16 new segments [18, 34, 37, 39, 42, 43, 44, 45, 48, 51, 52, 77, 95, 121, 124, 150]; screening 416 pairs
+  screening done in 19.3 min
+  joint fits done in 56.1 min
+  seg  18: rms signal 18.0 µV, wings 30.3 µV, σ 30.0 kHz, |P| 0.48-0.95, start good fit seg 115 02-11 00:55
+  seg  34: rms signal 65.5 µV, wings 75.7 µV, σ 30.0 kHz, |P| 0.74-0.88, start baseline refit
+  seg  37: rms signal 43.2 µV, wings 85.3 µV, σ 30.0 kHz, |P| 0.10-0.42, start baseline refit
+  seg  39: rms signal 58.1 µV, wings 73.7 µV, σ 30.0 kHz, |P| 0.55-0.79, start baseline refit
+  seg  42: rms signal 53.9 µV, wings 69.2 µV, σ 30.0 kHz, |P| 0.03-0.51, start baseline refit
+  seg  43: rms signal 64.2 µV, wings 88.1 µV, σ 30.0 kHz, |P| 0.03-0.26, start baseline refit
+  seg  44: rms signal 50.9 µV, wings 71.5 µV, σ 30.0 kHz, |P| 0.58-0.71, start baseline refit
+  seg  45: rms signal 44.7 µV, wings 103.3 µV, σ 30.0 kHz, |P| 0.07-0.61, start baseline refit
+  seg  48: rms signal 50.3 µV, wings 70.3 µV, σ 30.0 kHz, |P| 0.48-0.85, start baseline refit
+  seg  51: rms signal 52.9 µV, wings 64.9 µV, σ 30.0 kHz, |P| 0.10-0.21, start baseline refit
+  seg  52: rms signal 48.8 µV, wings 71.7 µV, σ 30.0 kHz, |P| 0.02-0.16, start baseline refit
+  seg  77: rms signal 20.7 µV, wings 50.2 µV, σ 30.0 kHz, |P| 0.37-0.46, start good fit seg 86 08-06 05:40
+  seg  95: rms signal 25.0 µV, wings 7.9 µV, σ 4.5 kHz, |P| 0.25-0.29, start good fit seg 154 03-23 09:20
+  seg 121: rms signal 17.9 µV, wings 11.9 µV, σ 3.3 kHz, |P| 0.01-0.94, start good fit seg 154 03-23 09:20
+  seg 124: rms signal 14.1 µV, wings 8.9 µV, σ 4.5 kHz, |P| 0.32-0.35, start good fit seg 125 03-06 03:53
+  seg 150: rms signal 18.6 µV, wings 10.8 µV, σ 4.5 kHz, |P| 0.24-0.33, start good fit seg 116 02-13 14:19
+part B: fitting 2340 extra events with the shared circuit fixed
+  [500/2340] 14.6 min
+  [1000/2340] 17.0 min
+  [1500/2340] 21.0 min
+  [2000/2340] 24.0 min
+  [2340/2340] 35.3 min
+done in 91.4 min: 2340 extra records, signal rms median 26.3 µV, wings 15.6 µV
